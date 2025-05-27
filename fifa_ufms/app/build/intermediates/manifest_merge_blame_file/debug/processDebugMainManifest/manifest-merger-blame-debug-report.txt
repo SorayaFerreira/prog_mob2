@@ -40,8 +40,8 @@
 27        android:supportsRtl="true"
 27-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
-29        android:theme="@style/Theme.Fifa_ufms" >
-29-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-47
+29        android:theme="@style/Theme.FifaUFMS" >
+29-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-46
 30        <activity
 30-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:15:9-23:20
 31            android:name="com.example.fifa_ufms.MainActivity"

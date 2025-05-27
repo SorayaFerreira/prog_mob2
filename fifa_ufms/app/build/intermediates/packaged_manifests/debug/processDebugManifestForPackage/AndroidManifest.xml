@@ -26,7 +26,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Fifa_ufms" >
+        android:theme="@style/Theme.FifaUFMS" >
         <activity
             android:name="com.example.fifa_ufms.MainActivity"
             android:exported="true" >

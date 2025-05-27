@@ -94,7 +94,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soph
 	android:allowBackup
 		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-47
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-46
 	android:dataExtractionRules
 		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.fifa_ufms.MainActivity

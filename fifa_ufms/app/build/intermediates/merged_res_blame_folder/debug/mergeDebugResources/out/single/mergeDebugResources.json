@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_thin.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_thin.ttf"
+    },
+    {
         "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.example.fifa_ufms.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
     },
@@ -16,6 +20,10 @@
         "source": "com.example.fifa_ufms.app-main-34:/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_bold.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_bold.ttf"
+    },
+    {
         "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.fifa_ufms.app-main-34:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -30,6 +38,10 @@
     {
         "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.example.fifa_ufms.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_logo_white.png.flat",
+        "source": "com.example.fifa_ufms.app-main-34:/drawable/logo_white.png"
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -56,8 +68,20 @@
         "source": "com.example.fifa_ufms.app-main-34:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_medium.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_regular.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_regular.ttf"
+    },
+    {
         "merged": "com.example.fifa_ufms.app-debug-32:/xml_data_extraction_rules.xml.flat",
         "source": "com.example.fifa_ufms.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_logo_blue.png.flat",
+        "source": "com.example.fifa_ufms.app-main-34:/drawable/logo_blue.png"
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
