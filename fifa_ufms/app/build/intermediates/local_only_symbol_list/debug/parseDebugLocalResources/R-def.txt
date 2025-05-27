@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color primary
+color secondary
+color text
+color title
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo_blue
+drawable logo_white
+font poppins_bold
+font poppins_medium
+font poppins_regular
+font poppins_thin
+id main
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Fifa_ufms
+style Theme.FifaUFMS
+xml backup_rules
+xml data_extraction_rules
