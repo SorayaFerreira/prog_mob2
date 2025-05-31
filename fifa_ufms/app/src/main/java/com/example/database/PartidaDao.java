@@ -1,8 +1,15 @@
+package com.example.database;
+
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.example.entities.Partida;
+
+import com.example.entities.Time;
 
 import java.util.List;
 
@@ -21,6 +28,6 @@ public interface PartidaDao {
     @Query("SELECT * FROM Partida")
     List<Partida> listarTodasPartidas();
 
-    @Query("SELECT * FROM Partida WHERE idJogador1 = :id OR idJogador2 = :id")
-    List<Partida> buscarPorJogador(int id);
+    @Query("SELECT * FROM Partida WHERE idTime = :id")
+    List<Partida> buscarPorPartidaPorTime(int id);
 }

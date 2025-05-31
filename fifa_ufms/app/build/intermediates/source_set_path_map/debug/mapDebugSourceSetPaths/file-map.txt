@@ -1,35 +1,38 @@
-com.example.fifa_ufms.app-annotation-experimental-1.4.0-0 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/003c4b571b344dde09a86b27961fbe07/transformed/annotation-experimental-1.4.0/res
-com.example.fifa_ufms.app-cardview-1.0.0-1 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/042815d81163a05e9f46af4cc14f8c0e/transformed/cardview-1.0.0/res
-com.example.fifa_ufms.app-drawerlayout-1.1.1-2 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0cdcf21f6c9fc566e94b6857a95fc103/transformed/drawerlayout-1.1.1/res
-com.example.fifa_ufms.app-activity-1.10.1-3 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1accc75d1338c34d6cfd377664c2ee07/transformed/activity-1.10.1/res
-com.example.fifa_ufms.app-coordinatorlayout-1.1.0-4 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/208bfa7ff7c42aa4b69441a6fb11fd7a/transformed/coordinatorlayout-1.1.0/res
-com.example.fifa_ufms.app-fragment-1.5.4-5 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/23056cfc898ad343370661c676ab5301/transformed/fragment-1.5.4/res
-com.example.fifa_ufms.app-appcompat-resources-1.7.0-6 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/2e1ca0445bf422d58e2659ffb46dcff9/transformed/appcompat-resources-1.7.0/res
-com.example.fifa_ufms.app-core-viewtree-1.0.0-7 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/4580a5d8456474b5b9c04ff28a95d76e/transformed/core-viewtree-1.0.0/res
-com.example.fifa_ufms.app-material-1.12.0-8 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/res
-com.example.fifa_ufms.app-savedstate-1.2.1-9 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/62ed4846b41a0ecc488cef4408e30301/transformed/savedstate-1.2.1/res
-com.example.fifa_ufms.app-core-runtime-2.2.0-10 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6b8a956615821c8bdcea40a695e3236a/transformed/core-runtime-2.2.0/res
-com.example.fifa_ufms.app-profileinstaller-1.4.0-11 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/res
-com.example.fifa_ufms.app-lifecycle-viewmodel-2.6.2-12 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7e543c0d2df3f695dcd92a4c678efd13/transformed/lifecycle-viewmodel-2.6.2/res
-com.example.fifa_ufms.app-lifecycle-livedata-2.6.2-13 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7f0550b77bdbe75131e60a4d774ba21f/transformed/lifecycle-livedata-2.6.2/res
-com.example.fifa_ufms.app-lifecycle-livedata-core-2.6.2-14 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c05e694ae934465753be298f78bde5b/transformed/lifecycle-livedata-core-2.6.2/res
-com.example.fifa_ufms.app-startup-runtime-1.1.1-15 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/res
-com.example.fifa_ufms.app-appcompat-1.7.0-16 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/res
-com.example.fifa_ufms.app-lifecycle-viewmodel-savedstate-2.6.2-17 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/934321781cce2596a47c04214683942c/transformed/lifecycle-viewmodel-savedstate-2.6.2/res
-com.example.fifa_ufms.app-lifecycle-process-2.6.2-18 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/res
-com.example.fifa_ufms.app-core-ktx-1.13.0-19 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9e800f98739de0a03f4704fad9045be5/transformed/core-ktx-1.13.0/res
-com.example.fifa_ufms.app-emoji2-1.3.0-20 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/res
-com.example.fifa_ufms.app-lifecycle-runtime-2.6.2-21 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b7a30e96cb35a9fe19ee382a1e5dbfd6/transformed/lifecycle-runtime-2.6.2/res
-com.example.fifa_ufms.app-viewpager2-1.0.0-22 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/bdc92d64e8c71d28b7f783a7ff7572e8/transformed/viewpager2-1.0.0/res
-com.example.fifa_ufms.app-core-1.13.0-23 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/res
-com.example.fifa_ufms.app-recyclerview-1.1.0-24 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c91e1f876e92dd1f697538db29f9d4f9/transformed/recyclerview-1.1.0/res
-com.example.fifa_ufms.app-constraintlayout-2.2.1-25 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/res
-com.example.fifa_ufms.app-emoji2-views-helper-1.3.0-26 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ca1e4145681beaf1e119ca6daaa3bd83/transformed/emoji2-views-helper-1.3.0/res
-com.example.fifa_ufms.app-transition-1.5.0-27 /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fe9ca5e798eeb4a663939e9f857fd8f5/transformed/transition-1.5.0/res
-com.example.fifa_ufms.app-pngs-28 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/build/generated/res/pngs/debug
-com.example.fifa_ufms.app-resValues-29 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/build/generated/res/resValues/debug
-com.example.fifa_ufms.app-packageDebugResources-30 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.fifa_ufms.app-packageDebugResources-31 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.fifa_ufms.app-debug-32 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.fifa_ufms.app-debug-33 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/debug/res
-com.example.fifa_ufms.app-main-34 /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/res
+com.example.fifa_ufms.app-transition-1.5.0-0 C:\Users\caiof\.gradle\caches\8.11.1\transforms\0e5f01e5395e55496f05beea5c5440ac\transformed\transition-1.5.0\res
+com.example.fifa_ufms.app-annotation-experimental-1.4.1-1 C:\Users\caiof\.gradle\caches\8.11.1\transforms\1ad07fe8c51ce21e0e89a4e4ce523a23\transformed\annotation-experimental-1.4.1\res
+com.example.fifa_ufms.app-material-1.12.0-2 C:\Users\caiof\.gradle\caches\8.11.1\transforms\1b83bae882557590894096db09f2c183\transformed\material-1.12.0\res
+com.example.fifa_ufms.app-lifecycle-viewmodel-savedstate-2.6.2-3 C:\Users\caiof\.gradle\caches\8.11.1\transforms\1edfa73e8845ad4521a25aa9a1ae458d\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.fifa_ufms.app-constraintlayout-2.2.1-4 C:\Users\caiof\.gradle\caches\8.11.1\transforms\320250d8100a636c420668ed25aa42b3\transformed\constraintlayout-2.2.1\res
+com.example.fifa_ufms.app-emoji2-1.3.0-5 C:\Users\caiof\.gradle\caches\8.11.1\transforms\34e187dbeffe159d1dd7bd296c79ce98\transformed\emoji2-1.3.0\res
+com.example.fifa_ufms.app-lifecycle-livedata-core-2.6.2-6 C:\Users\caiof\.gradle\caches\8.11.1\transforms\4048a2f5515466496c336127a1da617f\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.fifa_ufms.app-lifecycle-viewmodel-2.6.2-7 C:\Users\caiof\.gradle\caches\8.11.1\transforms\58afa4b663559efba077c405584c9b85\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.fifa_ufms.app-viewpager2-1.0.0-8 C:\Users\caiof\.gradle\caches\8.11.1\transforms\6489635bdb66ada89cb4a1d583dbd3b2\transformed\viewpager2-1.0.0\res
+com.example.fifa_ufms.app-lifecycle-runtime-2.6.2-9 C:\Users\caiof\.gradle\caches\8.11.1\transforms\66a6ae3bc79370f7b20ecacf508870f3\transformed\lifecycle-runtime-2.6.2\res
+com.example.fifa_ufms.app-fragment-1.5.4-10 C:\Users\caiof\.gradle\caches\8.11.1\transforms\69ffc06c9040445e8b7c83e5668ddcdc\transformed\fragment-1.5.4\res
+com.example.fifa_ufms.app-recyclerview-1.1.0-11 C:\Users\caiof\.gradle\caches\8.11.1\transforms\6ac2b1cabc7880793331355981afd000\transformed\recyclerview-1.1.0\res
+com.example.fifa_ufms.app-drawerlayout-1.1.1-12 C:\Users\caiof\.gradle\caches\8.11.1\transforms\6c8562e13f95e5c3d5c832024a6d2228\transformed\drawerlayout-1.1.1\res
+com.example.fifa_ufms.app-sqlite-release-13 C:\Users\caiof\.gradle\caches\8.11.1\transforms\757670d045bc4608bc4b637a0f9437ae\transformed\sqlite-release\res
+com.example.fifa_ufms.app-savedstate-1.2.1-14 C:\Users\caiof\.gradle\caches\8.11.1\transforms\7af4a7f9b2dae3c60dbbefcaba7ffad9\transformed\savedstate-1.2.1\res
+com.example.fifa_ufms.app-sqlite-framework-release-15 C:\Users\caiof\.gradle\caches\8.11.1\transforms\96247455735f8882ae70a2e0223af28a\transformed\sqlite-framework-release\res
+com.example.fifa_ufms.app-cardview-1.0.0-16 C:\Users\caiof\.gradle\caches\8.11.1\transforms\9b0d5b9ea174c306cffc647a8c7e8ba8\transformed\cardview-1.0.0\res
+com.example.fifa_ufms.app-core-1.13.0-17 C:\Users\caiof\.gradle\caches\8.11.1\transforms\9b983593cf5541be4d77da301233614d\transformed\core-1.13.0\res
+com.example.fifa_ufms.app-room-runtime-release-18 C:\Users\caiof\.gradle\caches\8.11.1\transforms\a157e8685540a30c88468ca7b8b93d91\transformed\room-runtime-release\res
+com.example.fifa_ufms.app-startup-runtime-1.1.1-19 C:\Users\caiof\.gradle\caches\8.11.1\transforms\a3040c3181f6792affef73422964b7e7\transformed\startup-runtime-1.1.1\res
+com.example.fifa_ufms.app-appcompat-1.7.0-20 C:\Users\caiof\.gradle\caches\8.11.1\transforms\a3d529a28556aab935494a514d9cfb7d\transformed\appcompat-1.7.0\res
+com.example.fifa_ufms.app-core-runtime-2.2.0-21 C:\Users\caiof\.gradle\caches\8.11.1\transforms\d9ccbc5a6bce0813e1aa68473bbd905d\transformed\core-runtime-2.2.0\res
+com.example.fifa_ufms.app-profileinstaller-1.4.0-22 C:\Users\caiof\.gradle\caches\8.11.1\transforms\d9e61d233db98eff4f925a15e65ffd05\transformed\profileinstaller-1.4.0\res
+com.example.fifa_ufms.app-lifecycle-livedata-2.6.2-23 C:\Users\caiof\.gradle\caches\8.11.1\transforms\db8e9e23db8f983da05a55ad641d2ef2\transformed\lifecycle-livedata-2.6.2\res
+com.example.fifa_ufms.app-appcompat-resources-1.7.0-24 C:\Users\caiof\.gradle\caches\8.11.1\transforms\e2050c40fa2808b4abb8e64a59dced52\transformed\appcompat-resources-1.7.0\res
+com.example.fifa_ufms.app-core-ktx-1.13.0-25 C:\Users\caiof\.gradle\caches\8.11.1\transforms\e6dfae239a2ef7df14a70a6fc1d4f8a7\transformed\core-ktx-1.13.0\res
+com.example.fifa_ufms.app-activity-1.10.1-26 C:\Users\caiof\.gradle\caches\8.11.1\transforms\ed31987facafa11efab3f437f805b083\transformed\activity-1.10.1\res
+com.example.fifa_ufms.app-core-viewtree-1.0.0-27 C:\Users\caiof\.gradle\caches\8.11.1\transforms\f3f8232015b1c2bc0450e87489bdad57\transformed\core-viewtree-1.0.0\res
+com.example.fifa_ufms.app-coordinatorlayout-1.1.0-28 C:\Users\caiof\.gradle\caches\8.11.1\transforms\f50c9ae32edd5a149a9cca9f5fa09cd9\transformed\coordinatorlayout-1.1.0\res
+com.example.fifa_ufms.app-lifecycle-process-2.6.2-29 C:\Users\caiof\.gradle\caches\8.11.1\transforms\f51e3760a30654f36aab697db3b7ef41\transformed\lifecycle-process-2.6.2\res
+com.example.fifa_ufms.app-emoji2-views-helper-1.3.0-30 C:\Users\caiof\.gradle\caches\8.11.1\transforms\ffa076ab033c2a9b8ca6db1a0af6c63e\transformed\emoji2-views-helper-1.3.0\res
+com.example.fifa_ufms.app-pngs-31 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\build\generated\res\pngs\debug
+com.example.fifa_ufms.app-resValues-32 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\build\generated\res\resValues\debug
+com.example.fifa_ufms.app-packageDebugResources-33 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.fifa_ufms.app-packageDebugResources-34 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.fifa_ufms.app-debug-35 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.fifa_ufms.app-debug-36 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\src\debug\res
+com.example.fifa_ufms.app-main-37 C:\Users\caiof\AndroidStudioProjects\prog_mob2\fifa_ufms\app\src\main\res

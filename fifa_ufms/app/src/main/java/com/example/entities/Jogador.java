@@ -1,6 +1,11 @@
+package com.example.entities;
+
 import androidx.room.Entity;
+import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
+
+import com.example.entities.Time;
 
 @Entity(indices = {@Index(value = {"nickname"}, unique = true)},
         foreignKeys = @ForeignKey(
@@ -96,5 +101,9 @@ public class Jogador {
 
     public void setNumeroAmarelos(int numeroAmarelos) {
         this.numeroAmarelos = numeroAmarelos;
+    }
+    // Se quiserem fazer uma função para mudar de time
+    public void setIdTime(int idTime) {
+        this.idTime = idTime;
     }
 }
