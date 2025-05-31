@@ -4,26 +4,7 @@
             "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-30:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "316"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "167"
-                    }
-                },
-                {
-                    "source": "/Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/soraya/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/soraya/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -54,6 +35,25 @@
                         "startOffsets": "172,242,326,410,506,608,710,3692",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "237,321,405,501,603,705,799,3776"
+                    }
+                },
+                {
+                    "source": "/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "167"
                     }
                 }
             ]

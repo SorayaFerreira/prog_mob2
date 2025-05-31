@@ -1,3 +1,5 @@
+package com.example.entities;
+
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
