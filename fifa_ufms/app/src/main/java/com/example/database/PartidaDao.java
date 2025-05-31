@@ -9,17 +9,17 @@ import java.util.List;
 @Dao
 public interface PartidaDao {
 
-    @Insert
-    void inserir(Partida partida);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void inserirPartida(Partida... partida);
 
     @Update
-    void atualizar(Partida partida);
+    void atualizarPartida(Partida... partida);
 
     @Delete
-    void deletar(Partida partida);
+    void deletarPartida(Partida... partida);
 
     @Query("SELECT * FROM Partida")
-    List<Partida> listarTodas();
+    List<Partida> listarTodasPartidas();
 
     @Query("SELECT * FROM Partida WHERE idJogador1 = :id OR idJogador2 = :id")
     List<Partida> buscarPorJogador(int id);

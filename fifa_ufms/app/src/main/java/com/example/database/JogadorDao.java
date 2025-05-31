@@ -8,19 +8,14 @@ import java.util.List;
 
 @Dao
 public interface JogadorDao {
-
-    @Insert
-    void inserir(Jogador jogador);
-
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void inserirJogador(Jogador... jogador);
     @Update
-    void atualizar(Jogador jogador);
-
+    void atualizarJogador(Jogador... jogador);
     @Delete
-    void deletar(Jogador jogador);
-
+    void deletarJogador(Jogador... jogador);
     @Query("SELECT * FROM Jogador")
-    List<Jogador> listarTodos();
-
+    List<Jogador> listarTodosJogadores();
     @Query("SELECT * FROM Jogador WHERE nickname = :nickname LIMIT 1")
     Jogador buscarPorNickname(String nickname);
 }

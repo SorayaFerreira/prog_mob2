@@ -24,4 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         DataSeeder.popularBanco(this);
     }
+
+    // db.timeDao().deletarTime(timeSelecionado); exemplo, para chamar as operações
 }
