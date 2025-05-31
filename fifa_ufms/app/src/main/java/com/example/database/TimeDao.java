@@ -1,8 +1,13 @@
+package com.example.database;
+
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.example.entities.Time;
 
 import java.util.List;
 
@@ -15,6 +20,6 @@ public interface TimeDao {
     @Delete
     void deletarTime(Time... time);
 
-    @Query("SELECT * FROM Time")
-    List<time> listarTodosTimes();
+    @Query("SELECT * FROM Times")
+    List<Time> listarTodosTimes();
 }

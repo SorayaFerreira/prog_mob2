@@ -1,7 +1,14 @@
+package com.example.database;
+
 import android.content.Context;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+
+import com.example.entities.Jogador;
+import com.example.entities.Partida;
+import com.example.entities.Time;
+
 
 @Database(entities = {Jogador.class, Partida.class, Time.class}, version = 1)
 public abstract class CampeonatoDatabase extends RoomDatabase {

@@ -37,6 +37,11 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.fifa_ufms.androidx-startup"
