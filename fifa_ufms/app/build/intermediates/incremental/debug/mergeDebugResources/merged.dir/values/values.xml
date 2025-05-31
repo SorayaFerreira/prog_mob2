@@ -1984,7 +1984,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="app_name">fifa_ufms</string>
+    <string name="app_name">FIFA UFMS</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an accessibility action to collapse the bottom sheet [CHAR LIMIT=NONE]" name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
@@ -1999,6 +1999,12 @@
     <string name="call_notification_incoming_text">Incoming call</string>
     <string name="call_notification_ongoing_text">Ongoing call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="card_jogadores_sub">Encontre os melhores jogadores</string>
+    <string name="card_jogadores_title">Jogadores</string>
+    <string name="card_partidas_sub">Acompanhe as partidas recentes</string>
+    <string name="card_partidas_title">Partidas</string>
+    <string name="card_times_sub">Veja os times cadastrados</string>
+    <string name="card_times_title">Times</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
@@ -2010,9 +2016,11 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="header_slogan">O seu app de jogos de futebol</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="logo_desc">Logo do app</string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
     <string name="m3_ref_typeface_brand_regular" translatable="false">sans-serif</string>
@@ -6398,7 +6406,7 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
-    <style name="Theme.FifaUFMS" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.FifaUFMS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/secondary</item>

@@ -3002,6 +3002,7 @@ int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
+int drawable background_home 0x7f0700e9
 int drawable btn_checkbox_checked_mtrl 0x7f07007a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007b
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007c
@@ -3363,7 +3364,6 @@ int id linear 0x7f0900f2
 int id listMode 0x7f0900f3
 int id list_item 0x7f0900f4
 int id m3_side_sheet 0x7f0900f5
-int id main 0x7f0900f6
 int id marquee 0x7f0900f7
 int id masked 0x7f0900f8
 int id match_constraint 0x7f0900f9
@@ -3864,6 +3864,12 @@ int string call_notification_hang_up_action 0x7f100027
 int string call_notification_incoming_text 0x7f100028
 int string call_notification_ongoing_text 0x7f100029
 int string call_notification_screening_text 0x7f10002a
+int string card_jogadores_sub 0x7f1000a7
+int string card_jogadores_title 0x7f1000a8
+int string card_partidas_sub 0x7f1000a9
+int string card_partidas_title 0x7f1000aa
+int string card_times_sub 0x7f1000ab
+int string card_times_title 0x7f1000ac
 int string character_counter_content_description 0x7f10002b
 int string character_counter_overflowed_content_description 0x7f10002c
 int string character_counter_pattern 0x7f10002d
@@ -3873,9 +3879,11 @@ int string error_icon_content_description 0x7f100030
 int string exposed_dropdown_menu_content_description 0x7f100031
 int string fab_transformation_scrim_behavior 0x7f100032
 int string fab_transformation_sheet_behavior 0x7f100033
+int string header_slogan 0x7f1000ae
 int string hide_bottom_view_on_scroll_behavior 0x7f100034
 int string icon_content_description 0x7f100035
 int string item_view_role_description 0x7f100036
+int string logo_desc 0x7f1000b2
 int string m3_exceed_max_badge_text_suffix 0x7f100037
 int string m3_ref_typeface_brand_medium 0x7f100038
 int string m3_ref_typeface_brand_regular 0x7f100039

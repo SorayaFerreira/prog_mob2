@@ -6,6 +6,7 @@ color secondary
 color text
 color title
 color white
+drawable background_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo_blue
@@ -14,11 +15,18 @@ font poppins_bold
 font poppins_medium
 font poppins_regular
 font poppins_thin
-id main
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string card_jogadores_sub
+string card_jogadores_title
+string card_partidas_sub
+string card_partidas_title
+string card_times_sub
+string card_times_title
+string header_slogan
+string logo_desc
 style Base.Theme.Fifa_ufms
 style Theme.FifaUFMS
 xml backup_rules

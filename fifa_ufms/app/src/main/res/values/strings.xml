@@ -1,4 +1,17 @@
 <resources>
-    <string name="app_name">fifa_ufms</string>
+    <string name="app_name">FIFA UFMS</string>
 
+    <!-- Header -->
+    <string name="logo_desc">Logo do app</string>
+    <string name="header_slogan">O seu app de jogos de futebol</string>
+
+    <!-- Cards -->
+    <string name="card_times_title">Times</string>
+    <string name="card_times_sub">Veja os times cadastrados</string>
+
+    <string name="card_jogadores_title">Jogadores</string>
+    <string name="card_jogadores_sub">Encontre os melhores jogadores</string>
+
+    <string name="card_partidas_title">Partidas</string>
+    <string name="card_partidas_sub">Acompanhe as partidas recentes</string>
 </resources>
