@@ -20,3 +20,43 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+### Android ###
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea/
+*.DS_Store
+# Linux
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/caches/
+.gradle/daemon/
+.gradle/native/
+.gradle/locks/
+.gradle/wrapper/dists/
+*.kotlin_module
+.navigation/
+*.jks
+*.keystore
+.idea/*
+!*.code-style.xml
+*.log
+google-services.json
