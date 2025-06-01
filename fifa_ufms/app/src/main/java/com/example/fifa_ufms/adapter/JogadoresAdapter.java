@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fifa_ufms.R;
-import com.example.fifa_ufms.model.Jogador;
+import com.example.fifa_ufms.entities.Jogador;
 
 import java.util.List;
 

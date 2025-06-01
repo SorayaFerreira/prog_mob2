@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="@color/white">
 
-    <!-- Header com botão de voltar -->
+    <!-- Header com botão de voltar e título -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
@@ -15,7 +15,7 @@
         android:padding="20dp">
 
         <ImageButton
-            android:id="@+id/back_button"
+            android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_back"
@@ -23,47 +23,95 @@
             android:contentDescription="@string/back_button_desc" />
 
         <TextView
-            android:id="@+id/title_text"
+            android:id="@+id/titleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_jogadores_form"
+            android:text="Cadastrar Jogador"
             android:textColor="@color/black"
             android:textSize="22sp"
             android:textStyle="bold"
             android:layout_marginStart="10dp"/>
-
     </LinearLayout>
 
     <!-- Conteúdo do formulário -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:padding="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/name_label"
-            android:textSize="18sp"
-            android:textColor="@color/black"/>
-
-        <EditText
-            android:id="@+id/edittext_nome_jogador"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/name_hint"
-            android:textSize="18sp"
-            android:inputType="textPersonName"
-            android:padding="10dp"
-            android:layout_marginTop="8dp" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button_save_jogador"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/save_button"
-            android:layout_marginTop="24dp" />
-    </LinearLayout>
+            <EditText
+                android:id="@+id/edittextNomeJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome" />
 
+            <EditText
+                android:id="@+id/editNickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nickname"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editDataNascimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data de Nascimento"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editNumeroGols"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Número de Gols"
+                android:inputType="number"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editNumeroAmarelos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cartões Amarelos"
+                android:inputType="number"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editNumeroVermelhos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cartões Vermelhos"
+                android:inputType="number"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editIdTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID do Time"
+                android:inputType="number"
+                android:layout_marginTop="12dp" />
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
