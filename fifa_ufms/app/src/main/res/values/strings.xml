@@ -30,6 +30,15 @@
     <string name="edit_jogador_desc">Botão para editar jogador</string>
     <string name="jogador_icon_desc">Ícone representando jogador</string>
     <string name="empty_list_jogadores">Nenhum jogador cadastrado</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_nickname">Nickname</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_data_nascimento">Data de Nascimento</string>
+    <string name="hint_numero_gols">Número de Gols</string>
+    <string name="hint_cartoes_amarelos">Cartões Amarelos</string>
+    <string name="hint_cartoes_vermelhos">Cartões Vermelhos</string>
+    <string name="hint_id_time">ID do Time</string>
+
 
     <!-- Tela: Formulário de Jogadores -->
     <string name="title_jogadores_form">Cadastrar Jogador</string>

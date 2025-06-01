@@ -72,13 +72,19 @@ public class JogadoresActivity extends AppCompatActivity {
                 3
         ));
 
-        // Adapter
         adapter = new JogadoresAdapter(this, jogadores, jogador -> {
             Intent intent = new Intent(JogadoresActivity.this, JogadorFormActivity.class);
             intent.putExtra(JogadorFormActivity.EXTRA_ID_JOGADOR, jogador.getIdJogador());
             intent.putExtra(JogadorFormActivity.EXTRA_NOME_JOGADOR, jogador.getNome());
+            intent.putExtra("nickname", jogador.getNickname());
+            intent.putExtra("email", jogador.getEmail());
+            intent.putExtra("dataNascimento", jogador.getDataNascimento());
+            intent.putExtra("numeroGols", jogador.getNumeroGols());
+            intent.putExtra("numeroAmarelos", jogador.getNumeroAmarelos());
+            intent.putExtra("numeroVermelhos", jogador.getNumeroVermelhos());
             startActivity(intent);
         });
+
 
         recyclerView.setAdapter(adapter);
 

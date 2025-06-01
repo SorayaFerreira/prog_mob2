@@ -15,40 +15,40 @@ import com.example.fifa_ufms.R;
 import com.example.fifa_ufms.entities.Jogador;
 
 import java.util.List;
+public class JogadoresAdapter extends RecyclerView.Adapter<JogadoresAdapter.ViewHolder> {
 
-public class JogadoresAdapter extends RecyclerView.Adapter<JogadoresAdapter.JogadorViewHolder> {
+    private final Context context;
+    private final List<Jogador> jogadores;
+    private final OnJogadorClickListener listener;
 
-    public interface OnItemEditClickListener {
-        void onEditClick(Jogador jogador);
+    public interface OnJogadorClickListener {
+        void onJogadorClick(Jogador jogador);
     }
 
-    private List<Jogador> jogadores;
-    private Context context;
-    private OnItemEditClickListener editClickListener;
-
-    public JogadoresAdapter(Context context, List<Jogador> jogadores, OnItemEditClickListener listener) {
+    public JogadoresAdapter(Context context, List<Jogador> jogadores, OnJogadorClickListener listener) {
         this.context = context;
         this.jogadores = jogadores;
-        this.editClickListener = listener;
+        this.listener = listener;
     }
 
     @NonNull
     @Override
-    public JogadorViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public JogadoresAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_jogador, parent, false);
-        return new JogadorViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull JogadorViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull JogadoresAdapter.ViewHolder holder, int position) {
         Jogador jogador = jogadores.get(position);
-        holder.nomeTextView.setText(jogador.getNome());
+        holder.textNome.setText(jogador.getNome());
+        holder.textNickname.setText(jogador.getNickname());
+        holder.textEmail.setText(jogador.getEmail());
+        holder.textDataNascimento.setText(jogador.getDataNascimento());
+        holder.textGols.setText("Gols: " + jogador.getNumeroGols());
+        holder.textCartoes.setText("Amarelos: " + jogador.getNumeroAmarelos() + " | Vermelhos: " + jogador.getNumeroVermelhos());
 
-        holder.editButton.setOnClickListener(v -> {
-            if (editClickListener != null) {
-                editClickListener.onEditClick(jogador);
-            }
-        });
+        holder.buttonEdit.setOnClickListener(v -> listener.onJogadorClick(jogador));
     }
 
     @Override
@@ -56,17 +56,19 @@ public class JogadoresAdapter extends RecyclerView.Adapter<JogadoresAdapter.Joga
         return jogadores.size();
     }
 
-    static class JogadorViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView textNome, textNickname, textEmail, textDataNascimento, textGols, textCartoes;
+        ImageButton buttonEdit;
 
-        ImageView iconImageView;
-        TextView nomeTextView;
-        ImageButton editButton;
-
-        public JogadorViewHolder(@NonNull View itemView) {
+        public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            iconImageView = itemView.findViewById(R.id.image_jogador_icon);
-            nomeTextView = itemView.findViewById(R.id.text_nome_jogador);
-            editButton = itemView.findViewById(R.id.button_edit_jogador);
+            textNome = itemView.findViewById(R.id.text_nome_jogador);
+            textNickname = itemView.findViewById(R.id.text_nickname);
+            textEmail = itemView.findViewById(R.id.text_email);
+            textDataNascimento = itemView.findViewById(R.id.text_data_nascimento);
+            textGols = itemView.findViewById(R.id.text_gols);
+            textCartoes = itemView.findViewById(R.id.text_cartoes);
+            buttonEdit = itemView.findViewById(R.id.button_edit_jogador);
         }
     }
 }

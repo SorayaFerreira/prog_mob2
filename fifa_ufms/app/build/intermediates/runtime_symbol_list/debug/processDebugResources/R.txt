@@ -3004,7 +3004,7 @@ int drawable abc_vector_test 0x7f070076
 int drawable avd_hide_password 0x7f070077
 int drawable avd_show_password 0x7f070078
 int drawable background_home 0x7f070079
-int drawable bg_button_add_jogador 0x7f07007a
+int drawable bg_button 0x7f0700ef
 int drawable bg_card 0x7f07007b
 int drawable bg_item_jogador 0x7f07007c
 int drawable btn_checkbox_checked_mtrl 0x7f07007d
@@ -3927,6 +3927,14 @@ int string fab_transformation_scrim_behavior 0x7f10003e
 int string fab_transformation_sheet_behavior 0x7f10003f
 int string header_slogan 0x7f100040
 int string hide_bottom_view_on_scroll_behavior 0x7f100041
+int string hint_cartoes_amarelos 0x7f1000be
+int string hint_cartoes_vermelhos 0x7f1000bf
+int string hint_data_nascimento 0x7f1000c0
+int string hint_email 0x7f1000c1
+int string hint_id_time 0x7f1000c2
+int string hint_nickname 0x7f1000c3
+int string hint_nome 0x7f1000c4
+int string hint_numero_gols 0x7f1000c5
 int string icon_content_description 0x7f100042
 int string item_view_role_description 0x7f100043
 int string jogador_icon_desc 0x7f100044

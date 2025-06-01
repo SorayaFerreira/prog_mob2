@@ -3005,7 +3005,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_home
-drawable bg_button_add_jogador
+drawable bg_button
 drawable bg_card
 drawable bg_item_jogador
 drawable btn_checkbox_checked_mtrl
@@ -3928,6 +3928,14 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string header_slogan
 string hide_bottom_view_on_scroll_behavior
+string hint_cartoes_amarelos
+string hint_cartoes_vermelhos
+string hint_data_nascimento
+string hint_email
+string hint_id_time
+string hint_nickname
+string hint_nome
+string hint_numero_gols
 string icon_content_description
 string item_view_role_description
 string jogador_icon_desc

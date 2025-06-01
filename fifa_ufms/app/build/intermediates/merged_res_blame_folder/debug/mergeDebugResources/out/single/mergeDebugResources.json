@@ -4,20 +4,20 @@
         "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_back.xml.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/ic_back.xml"
-    },
-    {
         "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/font_poppins_medium.ttf.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/font/poppins_medium.ttf"
+        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_back.xml.flat",
+        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/ic_back.xml"
     },
     {
         "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/font_poppins_medium.ttf.flat",
+        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/font/poppins_medium.ttf"
     },
     {
         "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_edit.xml.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_jogador_form.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/layout/activity_jogador_form.xml"
+    },
+    {
+        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_bg_button.xml.flat",
+        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/bg_button.xml"
     },
     {
         "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_launcher.png.flat",

@@ -49,20 +49,20 @@
                 android:id="@+id/edittextNomeJogador"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nome" />
+                android:hint="@string/hint_nome" />
 
             <EditText
                 android:id="@+id/editNickname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nickname"
+                android:hint="@string/hint_nickname"
                 android:layout_marginTop="12dp" />
 
             <EditText
                 android:id="@+id/editEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Email"
+                android:hint="@string/hint_email"
                 android:inputType="textEmailAddress"
                 android:layout_marginTop="12dp" />
 
@@ -70,14 +70,14 @@
                 android:id="@+id/editDataNascimento"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Data de Nascimento"
+                android:hint="@string/hint_data_nascimento"
                 android:layout_marginTop="12dp" />
 
             <EditText
                 android:id="@+id/editNumeroGols"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Número de Gols"
+                android:hint="@string/hint_numero_gols"
                 android:inputType="number"
                 android:layout_marginTop="12dp" />
 
@@ -85,7 +85,7 @@
                 android:id="@+id/editNumeroAmarelos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Cartões Amarelos"
+                android:hint="@string/hint_cartoes_amarelos"
                 android:inputType="number"
                 android:layout_marginTop="12dp" />
 
@@ -93,7 +93,7 @@
                 android:id="@+id/editNumeroVermelhos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Cartões Vermelhos"
+                android:hint="@string/hint_cartoes_vermelhos"
                 android:inputType="number"
                 android:layout_marginTop="12dp" />
 
@@ -101,16 +101,21 @@
                 android:id="@+id/editIdTime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="ID do Time"
+                android:hint="@string/hint_id_time"
                 android:inputType="number"
                 android:layout_marginTop="12dp" />
+
 
             <Button
                 android:id="@+id/buttonSave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Salvar"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:background="@drawable/bg_button"
+                android:textColor="@color/white" />
+
 
         </LinearLayout>
     </ScrollView>

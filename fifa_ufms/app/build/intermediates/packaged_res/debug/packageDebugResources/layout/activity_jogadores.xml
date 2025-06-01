@@ -58,8 +58,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/add_jogador_button"
-            android:background="@drawable/bg_button_add_jogador"
+            android:background="@drawable/bg_button"
             android:textColor="@color/white"
+            android:textSize="16sp"
             android:contentDescription="@string/add_jogador_desc"/>
 
     </LinearLayout>
