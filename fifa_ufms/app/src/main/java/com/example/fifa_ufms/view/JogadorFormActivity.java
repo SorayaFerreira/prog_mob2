@@ -52,7 +52,7 @@ public class JogadorFormActivity extends AppCompatActivity {
                     Toast.makeText(this, "Por favor, preencha o nome do jogador", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                // Aqui você pode salvar no banco ou retornar resultado
+                // salvar no banco ou retornar resultado
                 Toast.makeText(this, "Jogador atualizado: " + nome, Toast.LENGTH_SHORT).show();
                 finish();
             });
@@ -68,7 +68,7 @@ public class JogadorFormActivity extends AppCompatActivity {
                     Toast.makeText(this, "Por favor, preencha o nome do jogador", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                // Aqui você pode salvar no banco ou retornar resultado
+                // salvar no banco ou retornar resultado
                 Toast.makeText(this, "Jogador cadastrado: " + nome, Toast.LENGTH_SHORT).show();
                 finish();
             });

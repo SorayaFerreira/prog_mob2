@@ -42,9 +42,9 @@ public class JogadoresActivity extends AppCompatActivity {
         jogadores.add(new Jogador(3, "Ronaldo Fenômeno"));
 
         adapter = new JogadoresAdapter(this, jogadores, jogador -> {
-            // Ao clicar no botão de editar jogador
             Intent intent = new Intent(JogadoresActivity.this, JogadorFormActivity.class);
-            intent.putExtra("jogadorId", jogador.getId());
+            intent.putExtra(JogadorFormActivity.EXTRA_ID_JOGADOR, jogador.getId());
+            intent.putExtra(JogadorFormActivity.EXTRA_NOME_JOGADOR, jogador.getNome());
             startActivity(intent);
         });
         recyclerView.setAdapter(adapter);
