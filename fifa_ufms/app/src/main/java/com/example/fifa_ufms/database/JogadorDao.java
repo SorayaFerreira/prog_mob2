@@ -16,20 +16,23 @@ import com.example.fifa_ufms.entities.Partida;
 @Dao
 public interface JogadorDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void inserirJogador(Jogador... jogador);
+    void inserirJogador(Jogador... jogadores);
+
     @Update
-    void atualizarJogador(Jogador... jogador);
+    void atualizarJogador(Jogador... jogadores);
+
     @Delete
-    void deletarJogador(Jogador... jogador);
+    void deletarJogador(Jogador... jogadores);
+
     @Query("SELECT * FROM Jogador")
     List<Jogador> listarTodosJogadores();
+
     @Query("SELECT * FROM Jogador WHERE nickname = :nickname LIMIT 1")
     Jogador buscarPorNickname(String nickname);
 
-    //Listar os jogos que o jogador participou e deletar
     @Query("SELECT * FROM Partida " +
             "WHERE time1 = (SELECT idTime FROM Jogador WHERE nickname = :nickname) " +
-            "   OR time2 = (SELECT idTime FROM Jogador WHERE nickname = :nickname)")
+            "OR time2 = (SELECT idTime FROM Jogador WHERE nickname = :nickname)")
     List<Partida> buscarPartidasDoJogadorPorNickname(String nickname);
 
     @Transaction
@@ -40,5 +43,4 @@ public interface JogadorDao {
             deletarJogador(jogador);
         }
     }
-
 }
