@@ -4,26 +4,6 @@
         "source": "com.example.fifa_ufms.app-main-37:/layout/item_jogador.xml"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_back.xml.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/ic_back.xml"
-    },
-    {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/font_poppins_medium.ttf.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/font/poppins_medium.ttf"
-    },
-    {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_edit.xml.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/ic_edit.xml"
-=======
         "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.fifa_ufms.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -38,24 +18,14 @@
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/drawable_bg_item_jogador.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_item_jogador.xml"
->>>>>>> Stashed changes
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_jogador_form.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/layout/activity_jogador_form.xml"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_bg_button.xml.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/bg_button.xml"
-    },
-    {
-        "merged": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-debug-35:/drawable_ic_launcher.png.flat",
-        "source": "/Users/sophyaribeiro/.gradle/daemon/8.11.1/com.example.fifa_ufms.app-main-37:/drawable/ic_launcher.png"
-=======
         "merged": "com.example.fifa_ufms.app-debug-35:/drawable_background_home.png.flat",
         "source": "com.example.fifa_ufms.app-main-37:/drawable/background_home.png"
->>>>>>> Stashed changes
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -76,10 +46,6 @@
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_bg_button_add_jogador.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_button_add_jogador.xml"
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -108,6 +74,10 @@
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/xml_data_extraction_rules.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_bg_button.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_button.xml"
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_bold.ttf.flat",
