@@ -9,12 +9,10 @@ import androidx.room.PrimaryKey;
         foreignKeys = {
                 @ForeignKey(entity = Time.class,
                         parentColumns = "idTime",
-                        childColumns = "time1",
-                        onDelete = ForeignKey.CASCADE),
+                        childColumns = "time1"),
                 @ForeignKey(entity = Time.class,
                         parentColumns = "idTime",
-                        childColumns = "time2",
-                        onDelete = ForeignKey.CASCADE)
+                        childColumns = "time2"),
         }
 )
 public class Partida {
@@ -36,5 +34,53 @@ public class Partida {
         this.placarTime2 = placarTime2;
     }
 
-    // Getters e Setters...
+    // Getters e Setters
+
+    public int getIdPartida() {
+        return idPartida;
+    }
+
+    public void setIdPartida(int idPartida) {
+        this.idPartida = idPartida;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public int getTime1() {
+        return time1;
+    }
+
+    public void setTime1(int time1) {
+        this.time1 = time1;
+    }
+
+    public int getTime2() {
+        return time2;
+    }
+
+    public void setTime2(int time2) {
+        this.time2 = time2;
+    }
+
+    public int getPlacarTime1() {
+        return placarTime1;
+    }
+
+    public void setPlacarTime1(int placarTime1) {
+        this.placarTime1 = placarTime1;
+    }
+
+    public int getPlacarTime2() {
+        return placarTime2;
+    }
+
+    public void setPlacarTime2(int placarTime2) {
+        this.placarTime2 = placarTime2;
+    }
 }

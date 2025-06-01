@@ -102,8 +102,4 @@ public class Jogador {
     public void setNumeroAmarelos(int numeroAmarelos) {
         this.numeroAmarelos = numeroAmarelos;
     }
-    // Se quiserem fazer uma função para mudar de time
-    public void setIdTime(int idTime) {
-        this.idTime = idTime;
-    }
 }
