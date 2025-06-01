@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         <!-- Header -->
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="350dp"
             android:background="@drawable/background_home"
             android:gravity="center">
 
@@ -27,8 +27,8 @@
                 android:layout_gravity="center">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
                     android:src="@drawable/logo_white"
                     android:contentDescription="@string/logo_desc"
                     android:layout_gravity="center"/>
@@ -39,7 +39,9 @@
                     android:text="@string/header_slogan"
                     android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:layout_marginTop="12dp"/>
+                    android:layout_marginBottom="15dp"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
             </LinearLayout>
         </FrameLayout>
 
@@ -53,33 +55,35 @@
 
             <!-- Card: Times -->
             <LinearLayout
+                android:id="@+id/card_times"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp"
                 android:layout_marginBottom="16dp"
                 android:clickable="true"
                 android:focusable="true"
-                android:background="?attr/selectableItemBackground">
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/bg_card">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/card_times_title"
                     android:textColor="@color/primary"
-                    android:textSize="18sp"
-                    android:textStyle="bold"/>
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/card_times_sub"
                     android:textColor="@color/text"
-                    android:textSize="14sp"/>
+                    android:textSize="16sp" />
             </LinearLayout>
 
             <!-- Card: Jogadores -->
             <LinearLayout
+                android:id="@+id/card_jogadores"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -87,14 +91,14 @@
                 android:layout_marginBottom="16dp"
                 android:clickable="true"
                 android:focusable="true"
-                android:background="?attr/selectableItemBackground">
+                android:background="@drawable/bg_card">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/card_jogadores_title"
                     android:textColor="@color/primary"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -102,25 +106,26 @@
                     android:layout_height="wrap_content"
                     android:text="@string/card_jogadores_sub"
                     android:textColor="@color/text"
-                    android:textSize="14sp"/>
+                    android:textSize="16sp"/>
             </LinearLayout>
 
             <!-- Card: Partidas -->
             <LinearLayout
+                android:id="@+id/card_partidas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="16dp"
                 android:clickable="true"
                 android:focusable="true"
-                android:background="?attr/selectableItemBackground">
+                android:background="@drawable/bg_card">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/card_partidas_title"
                     android:textColor="@color/primary"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -128,7 +133,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/card_partidas_sub"
                     android:textColor="@color/text"
-                    android:textSize="14sp"/>
+                    android:textSize="16sp"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

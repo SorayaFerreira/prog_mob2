@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/2e1ca0445bf422d58e2659ffb46dcff9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -47,6 +47,7 @@ MERGED from [androidx.print:print:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.1
 MERGED from [androidx.core:core-viewtree:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/4580a5d8456474b5b9c04ff28a95d76e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/003c4b571b344dde09a86b27961fbe07/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 	package
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
@@ -57,8 +58,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/sophyarib
 	xmlns:android
 		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:5-39:19
+INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:5-39:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
@@ -80,39 +81,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soph
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-46
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:14:9-46
 	android:dataExtractionRules
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.fifa_ufms.MainActivity
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:15:9-23:20
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:8:9-65
+activity#com.example.fifa_ufms.view.MainActivity
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:18:9-25:20
 	android:exported
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.fifa_ufms.view.TimesActivity
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:28:19-53
+activity#com.example.fifa_ufms.view.JogadoresActivity
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:31:9-60
+	android:name
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:31:19-57
+activity#com.example.fifa_ufms.view.JogadorFormActivity
+ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:34:9-62
+	android:name
+		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:34:19-59
 uses-sdk
 INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
