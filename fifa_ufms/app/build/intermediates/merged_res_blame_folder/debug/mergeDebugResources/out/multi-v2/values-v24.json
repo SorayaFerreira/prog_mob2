@@ -4,7 +4,7 @@
             "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-33:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/4c784791716b1b38cb8ce6d0d2f71a9f/transformed/material-1.12.0/res/values-v24/values-v24.xml",
+                    "source": "/home/soraya/.gradle/caches/8.11.1/transforms/4c784791716b1b38cb8ce6d0d2f71a9f/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/2fd02786082f41309bc57244ad65f027/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/home/soraya/.gradle/caches/8.11.1/transforms/2fd02786082f41309bc57244ad65f027/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

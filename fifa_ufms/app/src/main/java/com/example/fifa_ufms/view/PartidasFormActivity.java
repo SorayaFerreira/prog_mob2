@@ -6,6 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
@@ -82,6 +83,10 @@ public class PartidasFormActivity extends AppCompatActivity {
         partida.time2 = idTime2;
 
         partidaDao.inserirPartida(partida);
+
+        Toast.makeText(this, "Partida salva!", Toast.LENGTH_SHORT).show();
+        finish();
+
         finish();
     }
 }

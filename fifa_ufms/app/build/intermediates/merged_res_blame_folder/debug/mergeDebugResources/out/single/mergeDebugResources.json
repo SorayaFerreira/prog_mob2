@@ -80,12 +80,20 @@
         "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_button.xml"
     },
     {
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_partida_form.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_partida_form.xml"
+    },
+    {
         "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_bold.ttf.flat",
         "source": "com.example.fifa_ufms.app-main-37:/font/poppins_bold.ttf"
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/xml_backup_rules.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_item_partida.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/item_partida.xml"
     },
     {
         "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_add.png.flat",
