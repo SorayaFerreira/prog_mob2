@@ -50,6 +50,7 @@
 
         <!-- Tela de Partidas -->
         <activity android:name="com.example.fifa_ufms.view.PartidasActivity" />
+        <activity android:name="com.example.fifa_ufms.view.PartidasFormActivity" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
