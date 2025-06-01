@@ -5,18 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/../../../../ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms" />
-            <option value="$PROJECT_DIR$/../../../../ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app" />
-          </set>
-        </option>
-        <option name="resolveExternalAnnotations" value="false" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../../../ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms" />
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
@@ -25,7 +13,17 @@
             <option value="$PROJECT_DIR$/../../../../ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app" />
           </set>
         </option>
-        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>

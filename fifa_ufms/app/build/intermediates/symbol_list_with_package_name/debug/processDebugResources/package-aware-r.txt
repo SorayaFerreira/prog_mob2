@@ -3762,6 +3762,7 @@ layout abc_tooltip
 layout activity_jogador_form
 layout activity_jogadores
 layout activity_main
+layout activity_partidas
 layout activity_times
 layout custom_dialog
 layout design_bottom_navigation_item
