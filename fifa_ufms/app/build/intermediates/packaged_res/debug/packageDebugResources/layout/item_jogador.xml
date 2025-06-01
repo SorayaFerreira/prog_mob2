@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="20dp"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:background="@drawable/bg_item_jogador"
+    android:gravity="center_vertical">
+
+    <!-- Ícone -->
+    <ImageView
+        android:id="@+id/image_jogador_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_user"
+        android:contentDescription="@string/jogador_icon_desc" />
+
+    <!-- Nome -->
+    <TextView
+        android:id="@+id/text_nome_jogador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nome do Jogador"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Botão editar -->
+    <ImageButton
+        android:id="@+id/button_edit_jogador"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:src="@drawable/ic_edit"
+        android:contentDescription="@string/edit_jogador_desc" />
+</LinearLayout>

@@ -1,297 +1,335 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/2e1ca0445bf422d58e2659ffb46dcff9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/bdc92d64e8c71d28b7f783a7ff7572e8/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/23056cfc898ad343370661c676ab5301/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.10.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1accc75d1338c34d6cfd377664c2ee07/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/62ed4846b41a0ecc488cef4408e30301/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ca1e4145681beaf1e119ca6daaa3bd83/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.transition:transition:1.5.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fe9ca5e798eeb4a663939e9f857fd8f5/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/795dce2a36b1ab8ca693b7f69858e1b8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9b6b82347d5cdbf5568b572bc71ef83f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ea7bc98c10f43a4ad2dfdec1f6160c7c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7f0550b77bdbe75131e60a4d774ba21f/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7e543c0d2df3f695dcd92a4c678efd13/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c05e694ae934465753be298f78bde5b/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b7a30e96cb35a9fe19ee382a1e5dbfd6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/934321781cce2596a47c04214683942c/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9e800f98739de0a03f4704fad9045be5/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0cdcf21f6c9fc566e94b6857a95fc103/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/208bfa7ff7c42aa4b69441a6fb11fd7a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fa78f2f719b09e4efe4302881b3934f6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1b8a0ec6955ca0e56f37120dd39da7e2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b3e29266b76fb88475b705fff46e442d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c91e1f876e92dd1f697538db29f9d4f9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0784d7146e47df7c8eecfd8279112821/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6a05d9a48b80331027b252793fb43591/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/042815d81163a05e9f46af4cc14f8c0e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/520e37356e18287c9c93f141c306095d/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/aaa49515316bf48e04bef622c9c26cad/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/5e6692d10cd0463ead6b97cf12e487f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6b8a956615821c8bdcea40a695e3236a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/946658f2a856b984063e52aa88324293/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/99425f7f71f2c6e827759803080ff8e1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9263ca879abf29857749e2733e5fdec9/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/4580a5d8456474b5b9c04ff28a95d76e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/003c4b571b344dde09a86b27961fbe07/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.material:material:1.12.0] /home/soraya/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/soraya/.gradle/caches/8.11.1/transforms/e2050c40fa2808b4abb8e64a59dced52/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/soraya/.gradle/caches/8.11.1/transforms/a3d529a28556aab935494a514d9cfb7d/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/6489635bdb66ada89cb4a1d583dbd3b2/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/soraya/.gradle/caches/8.11.1/transforms/69ffc06c9040445e8b7c83e5668ddcdc/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] /home/soraya/.gradle/caches/8.11.1/transforms/ed31987facafa11efab3f437f805b083/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/7af4a7f9b2dae3c60dbbefcaba7ffad9/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/ffa076ab033c2a9b8ca6db1a0af6c63e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/0e5f01e5395e55496f05beea5c5440ac/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/815ce237e4500d12f5e965b73ad7315d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/e50a279cd4c922fb5cd0194ad8a998e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/d18995450dc314df957c21455ba7df50/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/db8e9e23db8f983da05a55ad641d2ef2/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/58afa4b663559efba077c405584c9b85/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/4048a2f5515466496c336127a1da617f/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/66a6ae3bc79370f7b20ecacf508870f3/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/1edfa73e8845ad4521a25aa9a1ae458d/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/e6dfae239a2ef7df14a70a6fc1d4f8a7/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/6c8562e13f95e5c3d5c832024a6d2228/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/f50c9ae32edd5a149a9cca9f5fa09cd9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/ee2e702668b16b38a94b4bebe60f5b44/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/062519a8bd29df3d99fc5f1cda6c5c42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/353ec90302dacb1f55904518cbd028e3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/6ac2b1cabc7880793331355981afd000/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/4258387beab1cf90e091997148e5c74a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/cef3db6db785abbec5fae246af241656/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b0d5b9ea174c306cffc647a8c7e8ba8/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/7333922a1a9897b742f6f75e003b17f3/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9ccbc5a6bce0813e1aa68473bbd905d/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/2392746ade338bcbb218ce0800a8b3a0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/4a9fdae52bfd15a6b249a1ca4ae62385/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/96247455735f8882ae70a2e0223af28a/transformed/sqlite-framework-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/757670d045bc4608bc4b637a0f9437ae/transformed/sqlite-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/b984f222362212e087eacd5714e16ba2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/dbdc943cfb2b7188842ad2ff67b76490/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/3b8fdb6c8989ff9999227ee5393df418/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/f3f8232015b1c2bc0450e87489bdad57/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/soraya/.gradle/caches/8.11.1/transforms/1ad07fe8c51ce21e0e89a4e4ce523a23/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:4:5-36
+		INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:5:5-24:19
-MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/5e6692d10cd0463ead6b97cf12e487f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/5e6692d10cd0463ead6b97cf12e487f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:5-39:19
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:5-39:19
+MERGED from [com.google.android.material:material:1.12.0] /home/soraya/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/soraya/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/4a9fdae52bfd15a6b249a1ca4ae62385/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/4a9fdae52bfd15a6b249a1ca4ae62385/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-46
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:14:9-46
 	android:dataExtractionRules
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.fifa_ufms.MainActivity
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:15:9-23:20
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:8:9-65
+activity#com.example.fifa_ufms.view.MainActivity
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:18:9-25:20
 	android:exported
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.fifa_ufms.view.TimesActivity
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:28:19-53
+activity#com.example.fifa_ufms.view.JogadoresActivity
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:31:9-60
+	android:name
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:31:19-57
+activity#com.example.fifa_ufms.view.JogadorFormActivity
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:34:9-62
+	android:name
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:34:19-59
+activity#com.example.fifa_ufms.view.PartidasActivity
+ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:37:9-59
+	android:name
+		ADDED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:37:19-56
 uses-sdk
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
-INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/476df3c1cf1f4f30ab7a4e61a445c3a0/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c9e748f1d25a75e393cffe711ed5097a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/2e1ca0445bf422d58e2659ffb46dcff9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/2e1ca0445bf422d58e2659ffb46dcff9/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/bdc92d64e8c71d28b7f783a7ff7572e8/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/bdc92d64e8c71d28b7f783a7ff7572e8/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/23056cfc898ad343370661c676ab5301/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/23056cfc898ad343370661c676ab5301/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.10.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1accc75d1338c34d6cfd377664c2ee07/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.10.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1accc75d1338c34d6cfd377664c2ee07/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/62ed4846b41a0ecc488cef4408e30301/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/62ed4846b41a0ecc488cef4408e30301/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ca1e4145681beaf1e119ca6daaa3bd83/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ca1e4145681beaf1e119ca6daaa3bd83/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.transition:transition:1.5.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fe9ca5e798eeb4a663939e9f857fd8f5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.5.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fe9ca5e798eeb4a663939e9f857fd8f5/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/795dce2a36b1ab8ca693b7f69858e1b8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/795dce2a36b1ab8ca693b7f69858e1b8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9b6b82347d5cdbf5568b572bc71ef83f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9b6b82347d5cdbf5568b572bc71ef83f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ea7bc98c10f43a4ad2dfdec1f6160c7c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ea7bc98c10f43a4ad2dfdec1f6160c7c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7f0550b77bdbe75131e60a4d774ba21f/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7f0550b77bdbe75131e60a4d774ba21f/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7e543c0d2df3f695dcd92a4c678efd13/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7e543c0d2df3f695dcd92a4c678efd13/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c05e694ae934465753be298f78bde5b/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c05e694ae934465753be298f78bde5b/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b7a30e96cb35a9fe19ee382a1e5dbfd6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b7a30e96cb35a9fe19ee382a1e5dbfd6/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/934321781cce2596a47c04214683942c/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/934321781cce2596a47c04214683942c/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9e800f98739de0a03f4704fad9045be5/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9e800f98739de0a03f4704fad9045be5/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0cdcf21f6c9fc566e94b6857a95fc103/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0cdcf21f6c9fc566e94b6857a95fc103/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/208bfa7ff7c42aa4b69441a6fb11fd7a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/208bfa7ff7c42aa4b69441a6fb11fd7a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fa78f2f719b09e4efe4302881b3934f6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/fa78f2f719b09e4efe4302881b3934f6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1b8a0ec6955ca0e56f37120dd39da7e2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1b8a0ec6955ca0e56f37120dd39da7e2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b3e29266b76fb88475b705fff46e442d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b3e29266b76fb88475b705fff46e442d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c91e1f876e92dd1f697538db29f9d4f9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/c91e1f876e92dd1f697538db29f9d4f9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0784d7146e47df7c8eecfd8279112821/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/0784d7146e47df7c8eecfd8279112821/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6a05d9a48b80331027b252793fb43591/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6a05d9a48b80331027b252793fb43591/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/042815d81163a05e9f46af4cc14f8c0e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/042815d81163a05e9f46af4cc14f8c0e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/520e37356e18287c9c93f141c306095d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/520e37356e18287c9c93f141c306095d/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/aaa49515316bf48e04bef622c9c26cad/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/aaa49515316bf48e04bef622c9c26cad/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/5e6692d10cd0463ead6b97cf12e487f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/5e6692d10cd0463ead6b97cf12e487f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6b8a956615821c8bdcea40a695e3236a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/6b8a956615821c8bdcea40a695e3236a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/946658f2a856b984063e52aa88324293/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/946658f2a856b984063e52aa88324293/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/99425f7f71f2c6e827759803080ff8e1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/99425f7f71f2c6e827759803080ff8e1/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9263ca879abf29857749e2733e5fdec9/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/9263ca879abf29857749e2733e5fdec9/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/4580a5d8456474b5b9c04ff28a95d76e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/4580a5d8456474b5b9c04ff28a95d76e/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/003c4b571b344dde09a86b27961fbe07/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/003c4b571b344dde09a86b27961fbe07/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] /home/soraya/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/soraya/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/soraya/.gradle/caches/8.11.1/transforms/e2050c40fa2808b4abb8e64a59dced52/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/soraya/.gradle/caches/8.11.1/transforms/e2050c40fa2808b4abb8e64a59dced52/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/soraya/.gradle/caches/8.11.1/transforms/a3d529a28556aab935494a514d9cfb7d/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/soraya/.gradle/caches/8.11.1/transforms/a3d529a28556aab935494a514d9cfb7d/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/6489635bdb66ada89cb4a1d583dbd3b2/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/6489635bdb66ada89cb4a1d583dbd3b2/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/soraya/.gradle/caches/8.11.1/transforms/69ffc06c9040445e8b7c83e5668ddcdc/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/soraya/.gradle/caches/8.11.1/transforms/69ffc06c9040445e8b7c83e5668ddcdc/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] /home/soraya/.gradle/caches/8.11.1/transforms/ed31987facafa11efab3f437f805b083/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /home/soraya/.gradle/caches/8.11.1/transforms/ed31987facafa11efab3f437f805b083/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/7af4a7f9b2dae3c60dbbefcaba7ffad9/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/soraya/.gradle/caches/8.11.1/transforms/7af4a7f9b2dae3c60dbbefcaba7ffad9/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/ffa076ab033c2a9b8ca6db1a0af6c63e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/ffa076ab033c2a9b8ca6db1a0af6c63e/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/0e5f01e5395e55496f05beea5c5440ac/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/0e5f01e5395e55496f05beea5c5440ac/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/815ce237e4500d12f5e965b73ad7315d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/815ce237e4500d12f5e965b73ad7315d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/e50a279cd4c922fb5cd0194ad8a998e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/e50a279cd4c922fb5cd0194ad8a998e6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/d18995450dc314df957c21455ba7df50/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/d18995450dc314df957c21455ba7df50/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/db8e9e23db8f983da05a55ad641d2ef2/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/db8e9e23db8f983da05a55ad641d2ef2/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/58afa4b663559efba077c405584c9b85/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/58afa4b663559efba077c405584c9b85/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/4048a2f5515466496c336127a1da617f/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/4048a2f5515466496c336127a1da617f/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/66a6ae3bc79370f7b20ecacf508870f3/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/66a6ae3bc79370f7b20ecacf508870f3/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/1edfa73e8845ad4521a25aa9a1ae458d/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/1edfa73e8845ad4521a25aa9a1ae458d/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/e6dfae239a2ef7df14a70a6fc1d4f8a7/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/e6dfae239a2ef7df14a70a6fc1d4f8a7/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/6c8562e13f95e5c3d5c832024a6d2228/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/6c8562e13f95e5c3d5c832024a6d2228/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/f50c9ae32edd5a149a9cca9f5fa09cd9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/f50c9ae32edd5a149a9cca9f5fa09cd9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/ee2e702668b16b38a94b4bebe60f5b44/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/ee2e702668b16b38a94b4bebe60f5b44/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/062519a8bd29df3d99fc5f1cda6c5c42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/062519a8bd29df3d99fc5f1cda6c5c42/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/353ec90302dacb1f55904518cbd028e3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/353ec90302dacb1f55904518cbd028e3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/6ac2b1cabc7880793331355981afd000/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/6ac2b1cabc7880793331355981afd000/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/4258387beab1cf90e091997148e5c74a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/soraya/.gradle/caches/8.11.1/transforms/4258387beab1cf90e091997148e5c74a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/cef3db6db785abbec5fae246af241656/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/cef3db6db785abbec5fae246af241656/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b0d5b9ea174c306cffc647a8c7e8ba8/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b0d5b9ea174c306cffc647a8c7e8ba8/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/7333922a1a9897b742f6f75e003b17f3/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/7333922a1a9897b742f6f75e003b17f3/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9ccbc5a6bce0813e1aa68473bbd905d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9ccbc5a6bce0813e1aa68473bbd905d/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/2392746ade338bcbb218ce0800a8b3a0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/2392746ade338bcbb218ce0800a8b3a0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/4a9fdae52bfd15a6b249a1ca4ae62385/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/4a9fdae52bfd15a6b249a1ca4ae62385/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/96247455735f8882ae70a2e0223af28a/transformed/sqlite-framework-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/96247455735f8882ae70a2e0223af28a/transformed/sqlite-framework-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/757670d045bc4608bc4b637a0f9437ae/transformed/sqlite-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.5.0] /home/soraya/.gradle/caches/8.11.1/transforms/757670d045bc4608bc4b637a0f9437ae/transformed/sqlite-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/b984f222362212e087eacd5714e16ba2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/b984f222362212e087eacd5714e16ba2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/dbdc943cfb2b7188842ad2ff67b76490/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/dbdc943cfb2b7188842ad2ff67b76490/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/3b8fdb6c8989ff9999227ee5393df418/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/3b8fdb6c8989ff9999227ee5393df418/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/f3f8232015b1c2bc0450e87489bdad57/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/soraya/.gradle/caches/8.11.1/transforms/f3f8232015b1c2bc0450e87489bdad57/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/soraya/.gradle/caches/8.11.1/transforms/1ad07fe8c51ce21e0e89a4e4ce523a23/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/soraya/.gradle/caches/8.11.1/transforms/1ad07fe8c51ce21e0e89a4e4ce523a23/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8c50d4dac4bec52872374a5458d5b4e0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+		INJECTED from /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-permission#com.example.fifa_ufms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-uses-permission#com.example.fifa_ufms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/soraya/.gradle/caches/8.11.1/transforms/a3040c3181f6792affef73422964b7e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.fifa_ufms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.fifa_ufms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

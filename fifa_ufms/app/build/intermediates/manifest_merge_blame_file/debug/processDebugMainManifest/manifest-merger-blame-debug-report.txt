@@ -9,122 +9,153 @@
 9        android:targetSdkVersion="35" />
 10
 11    <permission
-11-->[androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.fifa_ufms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.fifa_ufms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:5:5-24:19
+17-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:5-39:19
 18        android:allowBackup="true"
-18-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:6:9-35
+18-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.13.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/be5925daddc7aa920611d01b9a38c8cb/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.13.0] /home/soraya/.gradle/caches/8.11.1/transforms/9b983593cf5541be4d77da301233614d/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:7:9-65
+20-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:8:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:8:9-54
+23-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:9:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:9:9-43
+24-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:10:9-43
 25        android:label="@string/app_name"
-25-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:10:9-41
+25-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:11:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:11:9-54
+26-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-54
 27        android:supportsRtl="true"
-27-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:12:9-35
+27-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.FifaUFMS" >
-29-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:13:9-46
-30        <activity
-30-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:15:9-23:20
-31            android:name="com.example.fifa_ufms.MainActivity"
-31-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:16:13-41
-32            android:exported="true" >
-32-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:17:13-36
-33            <intent-filter>
-33-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:18:13-22:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:17-69
-34-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:17-77
-36-->/Users/sophyaribeiro/Library/CloudStorage/GoogleDrive-sophya.ribeiro@ufms.br/Meu Drive/UFMS/5° SEMESTRE/ PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS/Avaliacao 2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:27-74
-37            </intent-filter>
-38        </activity>
-39
-40        <provider
-40-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-41            android:name="androidx.startup.InitializationProvider"
-41-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-42            android:authorities="com.example.fifa_ufms.androidx-startup"
-42-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-43            android:exported="false" >
-43-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-44            <meta-data
-44-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-45-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-46                android:value="androidx.startup" />
-46-->[androidx.emoji2:emoji2:1.3.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/b170be0b2fa1e7cc4ffadc6a843ddfd0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
-47            <meta-data
-47-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-49                android:value="androidx.startup" />
-49-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/955ec40ef6ddc84288d16093cd87f82a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-51-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-52                android:value="androidx.startup" />
-52-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-53        </provider>
-54
-55        <receiver
-55-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-56            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-56-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-57            android:directBootAware="false"
-57-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-58            android:enabled="true"
-58-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-59            android:exported="true"
-59-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-60            android:permission="android.permission.DUMP" >
-60-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-61            <intent-filter>
-61-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-62                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-63            </intent-filter>
-64            <intent-filter>
-64-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-65                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
-66            </intent-filter>
-67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-68                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
-69            </intent-filter>
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-71                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/7600399c2bca33ab03c333a61549c62c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
-72            </intent-filter>
-73        </receiver>
-74    </application>
-75
-76</manifest>
+29-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:14:9-46
+30
+31        <!-- Tela principal -->
+32        <activity
+32-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:18:9-25:20
+33            android:name="com.example.fifa_ufms.view.MainActivity"
+33-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:19:13-46
+34            android:exported="true" >
+34-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:20:13-36
+35            <intent-filter>
+35-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:21:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:22:17-69
+36-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:23:17-77
+38-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <!-- Tela de Times -->
+43        <activity android:name="com.example.fifa_ufms.view.TimesActivity" />
+43-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:28:9-56
+43-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:28:19-53
+44
+45        <!-- Tela de Jogadores (lista) -->
+46        <activity android:name="com.example.fifa_ufms.view.JogadoresActivity" />
+46-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:31:9-60
+46-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:31:19-57
+47
+48        <!-- Tela de Formulário de Jogador -->
+49        <activity android:name="com.example.fifa_ufms.view.JogadorFormActivity" />
+49-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:34:9-62
+49-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:34:19-59
+50
+51        <!-- Tela de Partidas -->
+52        <activity android:name="com.example.fifa_ufms.view.PartidasActivity" />
+52-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:37:9-59
+52-->/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:37:19-56
+53
+54        <service
+54-->[androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
+55            android:name="androidx.room.MultiInstanceInvalidationService"
+55-->[androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+56            android:directBootAware="true"
+56-->[androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
+57            android:exported="false" />
+57-->[androidx.room:room-runtime-android:2.7.1] /home/soraya/.gradle/caches/8.11.1/transforms/a157e8685540a30c88468ca7b8b93d91/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.fifa_ufms.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] /home/soraya/.gradle/caches/8.11.1/transforms/34e187dbeffe159d1dd7bd296c79ce98/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/soraya/.gradle/caches/8.11.1/transforms/f51e3760a30654f36aab697db3b7ef41/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/soraya/.gradle/caches/8.11.1/transforms/d9e61d233db98eff4f925a15e65ffd05/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

@@ -27,8 +27,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FifaUFMS" >
+
+        <!-- Tela principal -->
         <activity
-            android:name="com.example.fifa_ufms.MainActivity"
+            android:name="com.example.fifa_ufms.view.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +38,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Tela de Times -->
+        <activity android:name="com.example.fifa_ufms.view.TimesActivity" />
+
+        <!-- Tela de Jogadores (lista) -->
+        <activity android:name="com.example.fifa_ufms.view.JogadoresActivity" />
+
+        <!-- Tela de Formulário de Jogador -->
+        <activity android:name="com.example.fifa_ufms.view.JogadorFormActivity" />
+
+        <!-- Tela de Partidas -->
+        <activity android:name="com.example.fifa_ufms.view.PartidasActivity" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
