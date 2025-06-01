@@ -41,35 +41,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nickname"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/text_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/text_data_nascimento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Data de Nascimento"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/text_gols"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gols: 0"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/text_cartoes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Amarelos: 0 | Vermelhos: 0"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
     </LinearLayout>
 
     <!-- Botão editar -->

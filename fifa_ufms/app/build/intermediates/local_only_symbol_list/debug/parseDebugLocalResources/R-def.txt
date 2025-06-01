@@ -8,7 +8,7 @@ color text
 color title
 color white
 drawable background_home
-drawable bg_button_add_jogador
+drawable bg_button
 drawable bg_card
 drawable bg_item_jogador
 drawable ic_add
@@ -72,6 +72,14 @@ string edit_jogador_desc
 string em_construcao
 string empty_list_jogadores
 string header_slogan
+string hint_cartoes_amarelos
+string hint_cartoes_vermelhos
+string hint_data_nascimento
+string hint_email
+string hint_id_time
+string hint_nickname
+string hint_nome
+string hint_numero_gols
 string jogador_icon_desc
 string logo_desc
 string name_hint

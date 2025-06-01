@@ -21,6 +21,14 @@
     <string name="em_construcao">Em construção...</string>
     <string name="empty_list_jogadores">Nenhum jogador cadastrado</string>
     <string name="header_slogan">O seu app para gerenciamento de jogos</string>
+    <string name="hint_cartoes_amarelos">Cartões Amarelos</string>
+    <string name="hint_cartoes_vermelhos">Cartões Vermelhos</string>
+    <string name="hint_data_nascimento">Data de Nascimento</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_id_time">ID do Time</string>
+    <string name="hint_nickname">Nickname</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_numero_gols">Número de Gols</string>
     <string name="jogador_icon_desc">Ícone representando jogador</string>
     <string name="logo_desc">Logo do app</string>
     <string name="name_hint">Digite o nome do jogador</string>

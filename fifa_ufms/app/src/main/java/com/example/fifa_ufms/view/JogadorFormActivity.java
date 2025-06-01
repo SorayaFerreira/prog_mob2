@@ -25,6 +25,7 @@ public class JogadorFormActivity extends AppCompatActivity {
         binding.backButton.setOnClickListener(v -> finish());
 
         Intent intent = getIntent();
+
         int jogadorId = intent.getIntExtra(EXTRA_ID_JOGADOR, -1);
         String nomeJogador = intent.getStringExtra(EXTRA_NOME_JOGADOR);
 
@@ -32,7 +33,15 @@ public class JogadorFormActivity extends AppCompatActivity {
             // Modo edição
             binding.titleText.setText("Editar Jogador");
             binding.buttonSave.setText("Salvar");
-            binding.buttonSave.setText(nomeJogador);
+
+            // Preencher os campos com os dados enviados pelo intent
+            binding.edittextNomeJogador.setText(nomeJogador);
+            binding.editNickname.setText(intent.getStringExtra("nickname"));
+            binding.editEmail.setText(intent.getStringExtra("email"));
+            binding.editDataNascimento.setText(intent.getStringExtra("dataNascimento"));
+            binding.editNumeroGols.setText(String.valueOf(intent.getIntExtra("numeroGols", 0)));
+            binding.editNumeroAmarelos.setText(String.valueOf(intent.getIntExtra("numeroAmarelos", 0)));
+            binding.editNumeroVermelhos.setText(String.valueOf(intent.getIntExtra("numeroVermelhos", 0)));
 
             binding.buttonSave.setOnClickListener(v -> {
                 String nome = binding.edittextNomeJogador.getText().toString().trim();
@@ -40,7 +49,7 @@ public class JogadorFormActivity extends AppCompatActivity {
                     Toast.makeText(this, "Por favor, preencha o nome do jogador", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                // salvar no banco ou retornar resultado
+                // Aqui você salva no banco ou retorna o resultado
                 Toast.makeText(this, "Jogador atualizado: " + nome, Toast.LENGTH_SHORT).show();
                 finish();
             });
@@ -56,7 +65,7 @@ public class JogadorFormActivity extends AppCompatActivity {
                     Toast.makeText(this, "Por favor, preencha o nome do jogador", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                // salvar no banco ou retornar resultado
+                // Aqui você salva no banco ou retorna o resultado
                 Toast.makeText(this, "Jogador cadastrado: " + nome, Toast.LENGTH_SHORT).show();
                 finish();
             });
