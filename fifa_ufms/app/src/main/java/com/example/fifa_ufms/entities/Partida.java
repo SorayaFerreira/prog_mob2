@@ -1,4 +1,4 @@
-package com.example.entities;
+package com.example.fifa_ufms.entities;
 
 import androidx.room.Entity;
 import androidx.room.ForeignKey;

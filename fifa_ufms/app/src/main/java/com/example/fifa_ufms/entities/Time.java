@@ -1,4 +1,4 @@
-package com.example.entities;
+package com.example.fifa_ufms.entities;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

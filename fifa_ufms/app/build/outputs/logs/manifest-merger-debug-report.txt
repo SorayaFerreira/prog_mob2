@@ -4,6 +4,7 @@ ADDED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main
 INJECTED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
 INJECTED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:8.7.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ea3e41bc59d590447077ee5242ea7c03/transformed/viewbinding-8.7.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/e2050c40fa2808b4abb8e64a59dced52/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -139,6 +140,8 @@ uses-sdk
 INJECTED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
 INJECTED from /Users/sophyaribeiro/Desenvolvimento/prog_mob2/fifa_ufms/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.7.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ea3e41bc59d590447077ee5242ea7c03/transformed/viewbinding-8.7.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.7.2] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/ea3e41bc59d590447077ee5242ea7c03/transformed/viewbinding-8.7.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/1b83bae882557590894096db09f2c183/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/320250d8100a636c420668ed25aa42b3/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44

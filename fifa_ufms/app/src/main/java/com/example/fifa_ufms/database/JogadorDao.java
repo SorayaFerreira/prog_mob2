@@ -1,4 +1,4 @@
-package com.example.database;
+package com.example.fifa_ufms.database;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -10,8 +10,8 @@ import androidx.room.Update;
 
 import java.util.List;
 
-import com.example.entities.Jogador;
-import com.example.entities.Partida;
+import com.example.fifa_ufms.entities.Jogador;
+import com.example.fifa_ufms.entities.Partida;
 
 @Dao
 public interface JogadorDao {

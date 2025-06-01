@@ -1,11 +1,9 @@
-package com.example.entities;
+package com.example.fifa_ufms.entities;
 
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
-
-import com.example.entities.Time;
 
 @Entity(indices = {@Index(value = {"nickname"}, unique = true)},
         foreignKeys = @ForeignKey(

@@ -1,4 +1,4 @@
-package com.example.database;
+package com.example.fifa_ufms.database;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -7,9 +7,7 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.entities.Partida;
-
-import com.example.entities.Time;
+import com.example.fifa_ufms.entities.Partida;
 
 import java.util.List;
 

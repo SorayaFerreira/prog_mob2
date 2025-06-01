@@ -14,27 +14,69 @@
     <!-- Ícone -->
     <ImageView
         android:id="@+id/image_jogador_icon"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:src="@drawable/ic_user"
         android:contentDescription="@string/jogador_icon_desc" />
 
-    <!-- Nome -->
-    <TextView
-        android:id="@+id/text_nome_jogador"
+    <!-- Dados do jogador -->
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Nome do Jogador"
-        android:textSize="17sp"
-        android:textColor="@color/black"
-        android:layout_marginStart="16dp"/>
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/text_nome_jogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Jogador"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/text_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nickname"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_data_nascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data de Nascimento"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_gols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gols: 0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_cartoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amarelos: 0 | Vermelhos: 0"
+            android:textSize="14sp" />
+    </LinearLayout>
 
     <!-- Botão editar -->
     <ImageButton
         android:id="@+id/button_edit_jogador"
-        android:layout_width="17dp"
-        android:layout_height="17dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:src="@drawable/ic_edit"
         android:contentDescription="@string/edit_jogador_desc" />
 </LinearLayout>

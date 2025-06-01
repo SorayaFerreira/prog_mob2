@@ -1,13 +1,13 @@
-package com.example.database;
+package com.example.fifa_ufms.database;
 
 import android.content.Context;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.entities.Jogador;
-import com.example.entities.Partida;
-import com.example.entities.Time;
+import com.example.fifa_ufms.entities.Jogador;
+import com.example.fifa_ufms.entities.Partida;
+import com.example.fifa_ufms.entities.Time;
 
 
 @Database(entities = {Jogador.class, Partida.class, Time.class}, version = 1)
