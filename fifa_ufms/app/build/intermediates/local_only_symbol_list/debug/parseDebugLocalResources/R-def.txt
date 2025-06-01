@@ -14,6 +14,7 @@ font poppins_bold
 font poppins_medium
 font poppins_regular
 font poppins_thin
+id main
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round

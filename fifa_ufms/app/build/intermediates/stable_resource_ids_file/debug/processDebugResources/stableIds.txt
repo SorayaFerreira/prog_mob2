@@ -2072,6 +2072,7 @@ com.example.fifa_ufms:dimen/mtrl_high_ripple_focused_alpha = 0x7f0602bb
 com.example.fifa_ufms:dimen/mtrl_fab_min_touch_target = 0x7f0602b7
 com.example.fifa_ufms:attr/textColorAlertDialogListItem = 0x7f030463
 com.example.fifa_ufms:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f0602a3
+com.example.fifa_ufms:id/main = 0x7f0901fa
 com.example.fifa_ufms:drawable/abc_list_selector_background_transition_holo_light = 0x7f070053
 com.example.fifa_ufms:dimen/mtrl_chip_text_size = 0x7f0602a2
 com.example.fifa_ufms:drawable/ic_keyboard_black_24dp = 0x7f070090
