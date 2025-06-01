@@ -4,7 +4,6 @@ import androidx.room.Entity;
 import androidx.room.ForeignKey;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
-
 @Entity(indices = {@Index(value = {"nickname"}, unique = true)},
         foreignKeys = @ForeignKey(
                 entity = Time.class,
@@ -13,7 +12,6 @@ import androidx.room.PrimaryKey;
                 onDelete = ForeignKey.CASCADE
         )
 )
-
 public class Jogador {
     @PrimaryKey(autoGenerate = true)
     public int idJogador;
@@ -99,5 +97,13 @@ public class Jogador {
 
     public void setNumeroAmarelos(int numeroAmarelos) {
         this.numeroAmarelos = numeroAmarelos;
+    }
+
+    public int getIdTime() {
+        return idTime;
+    }
+
+    public void setIdTime(int idTime) {
+        this.idTime = idTime;
     }
 }
