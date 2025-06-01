@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white">
 
-    <!-- Header com botão de voltar -->
+    <!-- Header -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:padding="16dp">
+        android:padding="20dp">
 
         <ImageButton
             android:id="@+id/back_button"
@@ -19,16 +20,58 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_back"
             android:background="@android:color/transparent"
-            android:contentDescription="@string/back_button_desc"/>
+            android:contentDescription="@string/back_button_desc" />
 
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Partidas"
-            android:textSize="18sp"
+            android:text="@string/partidas"
+            android:textColor="@color/black"
+            android:textSize="22sp"
             android:textStyle="bold"
-            android:layout_marginStart="8dp"/>
+            android:layout_marginStart="10dp"/>
     </LinearLayout>
 
+    <!-- Seção com título e botão -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/section_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/todas_as_partidas"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_add_partida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nova_partida"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:contentDescription="@string/bot_o_para_adicionar_partida"/>
+    </LinearLayout>
+
+    <!-- ListView de partidas -->
+    <ListView
+        android:id="@+id/list_view_partidas"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="16dp" />
 </LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Data da Partida -->
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_01_06_2025"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Nome dos Times -->
+    <TextView
+        android:id="@+id/textTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time A vs Time B"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Placar -->
+    <TextView
+        android:id="@+id/textPlacar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placar_2_x_1"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp" />
+
+    <!-- Separador opcional -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="12dp" />
+</LinearLayout>

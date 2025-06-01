@@ -3230,8 +3230,10 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id buttonSalvar
 id buttonSave
 id button_add_jogador
+id button_add_partida
 id button_edit_jogador
 id cache_measures
 id callMeasure
@@ -3315,6 +3317,9 @@ id editNickname
 id editNumeroAmarelos
 id editNumeroGols
 id editNumeroVermelhos
+id editTextData
+id editTextPlacarTime1
+id editTextPlacarTime2
 id edit_query
 id edit_text_id
 id edittextNomeJogador
@@ -3388,6 +3393,7 @@ id line3
 id linear
 id listMode
 id list_item
+id list_view_partidas
 id m3_side_sheet
 id main
 id marquee
@@ -3557,6 +3563,8 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerTime1
+id spinnerTime2
 id spline
 id split_action_bar
 id spread
@@ -3594,10 +3602,13 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id text
 id text2
+id textData
 id textEnd
+id textPlacar
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textTimes
 id textTop
 id text_cartoes
 id text_data_nascimento
@@ -3777,6 +3788,7 @@ layout abc_tooltip
 layout activity_jogador_form
 layout activity_jogadores
 layout activity_main
+layout activity_partida_form
 layout activity_partidas
 layout activity_times
 layout custom_dialog
@@ -3798,6 +3810,7 @@ layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_jogador
+layout item_partida
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3895,12 +3908,14 @@ string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string back_button_desc
+string bot_o_para_adicionar_partida
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string cadastrar_partida
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -3918,6 +3933,8 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string data_01_06_2025
+string data_da_partida_dd_mm_yyyy
 string edit_jogador_desc
 string em_construcao
 string empty_list_jogadores
@@ -4042,11 +4059,17 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string name_hint
 string name_label
+string nova_partida
+string partidas
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string placar_2_x_1
+string placar_time_1
+string placar_time_2
+string salvar_partida
 string save_button
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -4060,6 +4083,7 @@ string title_jogadores
 string title_jogadores_form
 string title_partidas
 string title_times
+string todas_as_partidas
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
