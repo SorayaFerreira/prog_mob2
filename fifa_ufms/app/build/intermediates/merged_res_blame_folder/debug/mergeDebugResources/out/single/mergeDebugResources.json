@@ -1,142 +1,142 @@
 [
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_ic_add.png.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/ic_add.png"
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_item_jogador.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/item_jogador.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_thin.ttf.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_thin.ttf"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_bg_item_jogador.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/bg_item_jogador.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_launcher.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_launcher.png"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/layout/activity_main.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_bg_item_jogador.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_item_jogador.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_bold.ttf.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_bold.ttf"
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_jogador_form.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_jogador_form.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_background_home.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/background_home.png"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_ic_launcher.png.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/ic_launcher.png"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_back.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_back.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_background_home.png.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/background_home.png"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/layout_item_jogador.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/layout/item_jogador.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_logo_blue.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/logo_blue.png"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_logo_white.png.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/logo_white.png"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_bg_button_add_jogador.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_button_add_jogador.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_user.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_user.png"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_bg_card.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/bg_card.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_bg_card.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_card.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/xml/data_extraction_rules.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_logo_blue.png.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/logo_blue.png"
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_jogadores.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_jogadores.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_ic_edit.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/ic_edit.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_bg_button_add_jogador.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/bg_button_add_jogador.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_bold.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_bold.ttf"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_ic_back.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/ic_back.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_add.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_add.png"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_edit.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_edit.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/drawable_ic_user.png.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/drawable/ic_user.png"
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_medium.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_medium.ttf"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_regular.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_regular.ttf"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_logo_white.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/logo_white.png"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/layout_activity_jogador_form.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/layout/activity_jogador_form.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/xml_backup_rules.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/xml/backup_rules.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_thin.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_thin.ttf"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/layout_activity_times.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/layout/activity_times.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_medium.ttf.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_medium.ttf"
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/font_poppins_regular.ttf.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/font/poppins_regular.ttf"
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/layout_activity_partidas.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/layout/activity_partidas.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_times.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_times.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-32:/layout_activity_jogadores.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-34:/layout/activity_jogadores.xml"
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_partidas.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_partidas.xml"
     }
 ]

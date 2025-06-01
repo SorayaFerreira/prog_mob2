@@ -31,6 +31,7 @@ id card_partidas
 id card_times
 id edittext_nome_jogador
 id image_jogador_icon
+id main
 id recycler_jogadores
 id section_title
 id text_nome_jogador

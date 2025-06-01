@@ -51,6 +51,11 @@
         <!-- Tela de Partidas -->
         <activity android:name="com.example.fifa_ufms.view.PartidasActivity" />
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.fifa_ufms.androidx-startup"
