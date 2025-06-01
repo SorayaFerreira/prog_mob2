@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-33:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-30:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/soraya/.gradle/caches/8.11.1/transforms/a3d529a28556aab935494a514d9cfb7d/transformed/appcompat-1.7.0/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/sophyaribeiro/.gradle/caches/8.11.1/transforms/8f2e3c40502c5bcc9c47a557e1d8ea54/transformed/appcompat-1.7.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
