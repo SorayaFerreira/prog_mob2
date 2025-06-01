@@ -1,9 +1,11 @@
 <resources>
+
+    <!-- Tela inicial -->
     <string name="app_name">FIFA UFMS</string>
 
     <!-- Header -->
     <string name="logo_desc">Logo do app</string>
-    <string name="header_slogan">O seu app de jogos de futebol</string>
+    <string name="header_slogan">O seu app para gerenciamento de jogos</string>
 
     <!-- Cards -->
     <string name="card_times_title">Times</string>
@@ -14,4 +16,29 @@
 
     <string name="card_partidas_title">Partidas</string>
     <string name="card_partidas_sub">Acompanhe as partidas recentes</string>
+
+    <!-- Tela: Times -->
+    <string name="title_times">Times</string>
+    <string name="back_button_desc">Voltar</string>
+    <string name="em_construcao">Em construção...</string>
+
+    <!-- Tela: Jogadores -->
+    <string name="title_jogadores">Jogadores</string>
+    <string name="add_jogador_button">Novo</string>
+    <string name="section_jogadores">Jogadores cadastrados</string>
+    <string name="add_jogador_desc">Adicionar novo jogador</string>
+    <string name="edit_jogador_desc">Botão para editar jogador</string>
+    <string name="jogador_icon_desc">Ícone representando jogador</string>
+    <string name="empty_list_jogadores">Nenhum jogador cadastrado</string>
+
+    <!-- Tela: Formulário de Jogadores -->
+    <string name="title_jogadores_form">Cadastrar Jogador</string>
+    <string name="name_label">Nome</string>
+    <string name="name_hint">Digite o nome do jogador</string>
+    <string name="save_button">Salvar</string>
+
+
+    <!-- Tela: Partidas -->
+    <string name="title_partidas">Partidas</string>
+
 </resources>

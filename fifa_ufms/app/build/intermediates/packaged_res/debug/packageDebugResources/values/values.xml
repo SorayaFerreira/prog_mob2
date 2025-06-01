@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="background">#E2E2E2</color>
     <color name="black">#FF000000</color>
     <color name="primary">#043775</color>
     <color name="secondary">#004fac</color>
     <color name="text">#213d59</color>
     <color name="title">#000e1f</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="add_jogador_button">Novo</string>
+    <string name="add_jogador_desc">Adicionar novo jogador</string>
     <string name="app_name">FIFA UFMS</string>
+    <string name="back_button_desc">Voltar</string>
     <string name="card_jogadores_sub">Encontre os melhores jogadores</string>
     <string name="card_jogadores_title">Jogadores</string>
     <string name="card_partidas_sub">Acompanhe as partidas recentes</string>
     <string name="card_partidas_title">Partidas</string>
     <string name="card_times_sub">Veja os times cadastrados</string>
     <string name="card_times_title">Times</string>
-    <string name="header_slogan">O seu app de jogos de futebol</string>
+    <string name="edit_jogador_desc">Botão para editar jogador</string>
+    <string name="em_construcao">Em construção...</string>
+    <string name="empty_list_jogadores">Nenhum jogador cadastrado</string>
+    <string name="header_slogan">O seu app para gerenciamento de jogos</string>
+    <string name="jogador_icon_desc">Ícone representando jogador</string>
     <string name="logo_desc">Logo do app</string>
-    <style name="Theme.FifaUFMS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <string name="name_hint">Digite o nome do jogador</string>
+    <string name="name_label">Nome</string>
+    <string name="save_button">Salvar</string>
+    <string name="section_jogadores">Jogadores cadastrados</string>
+    <string name="title_jogadores">Jogadores</string>
+    <string name="title_jogadores_form">Cadastrar Jogador</string>
+    <string name="title_partidas">Partidas</string>
+    <string name="title_times">Times</string>
+    <style name="Theme.FifaUFMS" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
 
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/secondary</item>
