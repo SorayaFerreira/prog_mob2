@@ -38,6 +38,7 @@ id title_text
 layout activity_jogador_form
 layout activity_jogadores
 layout activity_main
+layout activity_partidas
 layout activity_times
 layout item_jogador
 mipmap ic_launcher

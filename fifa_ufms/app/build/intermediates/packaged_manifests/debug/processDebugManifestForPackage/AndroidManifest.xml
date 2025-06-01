@@ -49,7 +49,7 @@
         <activity android:name="com.example.fifa_ufms.view.JogadorFormActivity" />
 
         <!-- Tela de Partidas -->
-        <!-- <activity android:name=".view.PartidasActivity" /> -->
+        <activity android:name="com.example.fifa_ufms.view.PartidasActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

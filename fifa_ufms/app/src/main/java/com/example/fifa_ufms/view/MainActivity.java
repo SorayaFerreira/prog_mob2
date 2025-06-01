@@ -15,17 +15,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Card para Times
         LinearLayout cardTimes = findViewById(R.id.card_times);
         cardTimes.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, TimesActivity.class);
             startActivity(intent);
         });
 
+        // Card para Jogadores
         LinearLayout cardJogadores = findViewById(R.id.card_jogadores);
         cardJogadores.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, JogadoresActivity.class);
             startActivity(intent);
         });
 
+        // Card para Partidas
+        LinearLayout cardPartidas = findViewById(R.id.card_partidas);
+        cardPartidas.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, PartidasActivity.class);
+            startActivity(intent);
+        });
     }
 }

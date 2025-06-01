@@ -34,7 +34,7 @@
         <activity android:name=".view.JogadorFormActivity" />
 
         <!-- Tela de Partidas -->
-<!--        <activity android:name=".view.PartidasActivity" />-->
+        <activity android:name=".view.PartidasActivity" />
 
     </application>
 
