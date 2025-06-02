@@ -36,6 +36,9 @@
         <!-- Tela de Partidas -->
         <activity android:name=".view.PartidasActivity" />
 
+        <activity android:name=".view.PartidasFormActivity" />
+
+
     </application>
 
 </manifest>

@@ -9,21 +9,25 @@ import com.example.fifa_ufms.entities.Jogador;
 import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Time;
 
-
-@Database(entities = {Jogador.class, Partida.class, Time.class}, version = 1)
+@Database(entities = {Jogador.class, Time.class, Partida.class}, version = 1)
 public abstract class CampeonatoDatabase extends RoomDatabase {
+    private static volatile CampeonatoDatabase INSTANCE;
 
-    private static CampeonatoDatabase INSTANCE;
     public abstract JogadorDao jogadorDao();
-    public abstract PartidaDao partidaDao();
     public abstract TimeDao timeDao();
+    public abstract PartidaDao partidaDao();
 
-    public static synchronized CampeonatoDatabase getInstance(Context context) {
+    public static CampeonatoDatabase getInstance(Context context) {
         if (INSTANCE == null) {
-            INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
-                            CampeonatoDatabase.class, "Campeonato")
-                    .fallbackToDestructiveMigration()
-                    .build();
+            synchronized (CampeonatoDatabase.class) {
+                if (INSTANCE == null) {
+                    INSTANCE = Room.databaseBuilder(
+                            context.getApplicationContext(),
+                            CampeonatoDatabase.class,
+                            "campeonato"
+                    ).build();
+                }
+            }
         }
         return INSTANCE;
     }

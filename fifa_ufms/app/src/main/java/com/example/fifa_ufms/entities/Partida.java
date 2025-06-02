@@ -34,8 +34,9 @@ public class Partida {
         this.placarTime2 = placarTime2;
     }
 
-    // Getters e Setters
+    public Partida() {
 
+    }
     public int getIdPartida() {
         return idPartida;
     }
