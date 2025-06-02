@@ -56,7 +56,7 @@ public class TimeFormActivity extends AppCompatActivity {
         jogadoresList = new ArrayList<>();
 
         // Configura RecyclerView
-        jogadorAdapter = new JogadoresAdapter(jogadoresList);
+        //jogadorAdapter = new JogadoresAdapter(jogadoresList);
         binding.recyclerViewJogadores.setLayoutManager(new LinearLayoutManager(this));
         binding.recyclerViewJogadores.setAdapter(jogadorAdapter);
 

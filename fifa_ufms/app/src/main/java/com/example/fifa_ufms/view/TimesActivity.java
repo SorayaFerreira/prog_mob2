@@ -36,12 +36,12 @@ public class TimesActivity extends AppCompatActivity {
         backButton.setOnClickListener(v -> finish());
 
         // 2) Botão “Novo Time”
-        Button newButton = findViewById(R.id.button_new_time);
-        newButton.setOnClickListener(v -> {
+        //Button newButton = findViewById(R.id.button_new_time);
+        //newButton.setOnClickListener(v -> {
             // Navegar para TimeFormActivity em modo de CADASTRO (sem extras)
-            Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);
-            startActivity(intent);
-        });
+           // Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);
+           // startActivity(intent);
+      ///  });
 
         // 3) Configura RecyclerView
         recyclerView = findViewById(R.id.recycler_times);
@@ -49,7 +49,7 @@ public class TimesActivity extends AppCompatActivity {
 
         // 4) Busca lista de Times do banco
         db = CampeonatoDatabase.getInstance(getApplicationContext());
-        timesList = db.timeDao().getAllTimes();
+        //timesList = db.timeDao().getAllTimes();
 
         // 5) Configura o Adapter passando o listener de clique em cada card
         adapter = new TimesAdapter(timesList, time -> {
@@ -70,7 +70,7 @@ public class TimesActivity extends AppCompatActivity {
         super.onResume();
         // Toda vez que a Activity voltar ao primeiro plano, re-carregamos a lista (para pegar inserções/edições recentes)
         timesList.clear();
-        timesList.addAll(db.timeDao().getAllTimes());
+       // timesList.addAll(db.timeDao().getAllTimes());
         adapter.notifyDataSetChanged();
     }
 }
