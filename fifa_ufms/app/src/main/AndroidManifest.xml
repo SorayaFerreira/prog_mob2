@@ -26,6 +26,7 @@
 
         <!-- Tela de Times -->
         <activity android:name=".view.TimesActivity" />
+        <activity android:name=".view.TimeFormActivity" />
 
         <!-- Tela de Jogadores (lista) -->
         <activity android:name=".view.JogadoresActivity" />

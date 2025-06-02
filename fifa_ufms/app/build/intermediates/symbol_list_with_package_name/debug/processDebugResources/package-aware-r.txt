@@ -3235,6 +3235,7 @@ id buttonSalvar
 id buttonSave
 id button_add_jogador
 id button_add_partida
+id button_add_time
 id button_cancel
 id button_edit_jogador
 id button_salvar_time
@@ -3664,6 +3665,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvNomeJogador
 id unchecked
 id uniform
 id unlabeled
@@ -3830,6 +3832,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_jogador
 layout item_partida
+layout item_stringname_jogador
 layout item_time
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

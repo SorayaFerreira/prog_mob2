@@ -11,7 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fifa_ufms.R;
-import com.example.fifa_ufms.adapter.JogadoresAdapter;
+import com.example.fifa_ufms.adapter.JogadoresNoTimeAdapter;
+import com.example.fifa_ufms.adapter.JogadoresNoTimeAdapter;
 import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.database.JogadorDao;
 import com.example.fifa_ufms.database.TimeDao;
@@ -32,7 +33,7 @@ public class TimeFormActivity extends AppCompatActivity {
 
     private ActivityTimeFormBinding binding;
     private List<Jogador> jogadoresList;         // lista local de jogadores que serão anexados ao time
-    private JogadoresAdapter jogadorAdapter;       // adapter para exibir JavaList<Jogador> no RecyclerView
+    private JogadoresNoTimeAdapter jogadorAdapter;       // adapter para exibir JavaList<Jogador> no RecyclerView
     private RecyclerView recyclerViewJogadores;
 
     private TimeDao timeDao;

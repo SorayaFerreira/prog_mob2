@@ -51,7 +51,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_add_jogador"
+            android:id="@+id/button_add_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/add_jogador_button"

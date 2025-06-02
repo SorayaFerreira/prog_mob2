@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fifa_ufms.R;
-import com.example.fifa_ufms.database.TimeDao;
 import com.example.fifa_ufms.entities.Time;
+import com.example.fifa_ufms.view.TimesActivity;
 
 import java.util.List;
 
@@ -28,7 +28,7 @@ public class TimesAdapter extends RecyclerView.Adapter<TimesAdapter.TimeViewHold
     private final List<Time> timesList;
     private final OnTimeClickListener listener;
 
-    public TimesAdapter(List<Time> timesList, OnTimeClickListener listener) {
+    public TimesAdapter(TimesActivity timesActivity, List<Time> timesList, OnTimeClickListener listener) {
         this.timesList = timesList;
         this.listener = listener;
     }

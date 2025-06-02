@@ -29,6 +29,7 @@ id buttonSalvar
 id buttonSave
 id button_add_jogador
 id button_add_partida
+id button_add_time
 id button_cancel
 id button_edit_jogador
 id button_salvar_time
@@ -79,6 +80,7 @@ id text_team_color
 id text_team_name
 id titleText
 id title_text
+id tvNomeJogador
 layout activity_jogador_form
 layout activity_jogadores
 layout activity_main
@@ -88,6 +90,7 @@ layout activity_time_form
 layout activity_times
 layout item_jogador
 layout item_partida
+layout item_stringname_jogador
 layout item_time
 mipmap ic_launcher
 mipmap ic_launcher_round
