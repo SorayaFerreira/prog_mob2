@@ -37,7 +37,7 @@ public class PartidasActivity extends AppCompatActivity {
         botaoAdd = findViewById(R.id.button_add_partida);
 
         db = Room.databaseBuilder(getApplicationContext(),
-                        CampeonatoDatabase.class, "Campeonato")
+                        CampeonatoDatabase.class, "campeonato")
                 .allowMainThreadQueries()
                 .build();
 

@@ -24,7 +24,7 @@ public abstract class CampeonatoDatabase extends RoomDatabase {
                     INSTANCE = Room.databaseBuilder(
                             context.getApplicationContext(),
                             CampeonatoDatabase.class,
-                            "campeonato.db"
+                            "campeonato"
                     ).build();
                 }
             }

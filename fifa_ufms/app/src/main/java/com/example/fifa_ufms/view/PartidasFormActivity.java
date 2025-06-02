@@ -48,7 +48,7 @@ public class PartidasFormActivity extends AppCompatActivity {
         buttonSalvar = findViewById(R.id.buttonSalvar);
 
         CampeonatoDatabase db = Room.databaseBuilder(getApplicationContext(),
-                CampeonatoDatabase.class, "Campeonato").allowMainThreadQueries().build();
+                CampeonatoDatabase.class, "campeonato").allowMainThreadQueries().build();
 
         partidaDao = db.partidaDao();
         timeDao = db.timeDao(); // se usar times
