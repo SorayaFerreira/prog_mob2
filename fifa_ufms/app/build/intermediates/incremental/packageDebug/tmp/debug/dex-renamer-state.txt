@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #Sun Jun 01 21:44:40 AMT 2025
+=======
+#Sun Jun 01 15:35:52 AMT 2025
+>>>>>>> Stashed changes
 base.0=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex

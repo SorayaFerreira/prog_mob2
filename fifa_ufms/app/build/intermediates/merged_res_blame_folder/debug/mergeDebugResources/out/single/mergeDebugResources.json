@@ -80,6 +80,7 @@
         "source": "com.example.fifa_ufms.app-main-37:/drawable/bg_button.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_partida_form.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/layout/activity_partida_form.xml"
     },
@@ -144,6 +145,64 @@
         "source": "com.example.fifa_ufms.app-main-37:/layout/activity_times.xml"
     },
     {
+=======
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_bold.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_add.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_add.png"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_ic_edit.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_medium.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_regular.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/drawable_logo_white.png.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/drawable/logo_white.png"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/font_poppins_thin.ttf.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/font/poppins_thin.ttf"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_times.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-37:/layout/activity_times.xml"
+    },
+    {
+>>>>>>> Stashed changes
         "merged": "com.example.fifa_ufms.app-debug-35:/layout_activity_partidas.xml.flat",
         "source": "com.example.fifa_ufms.app-main-37:/layout/activity_partidas.xml"
     }
