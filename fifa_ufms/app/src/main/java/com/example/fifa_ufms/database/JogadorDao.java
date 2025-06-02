@@ -23,8 +23,14 @@ public interface JogadorDao {
     void deletarJogador(Jogador... jogador);
     @Query("SELECT * FROM Jogador")
     List<Jogador> listarTodosJogadores();
+    @Query("SELECT * FROM Jogador WHERE idTime = :idTime")
+    List<Jogador> listarJogadoresPorTime(int idTime);
     @Query("SELECT * FROM Jogador WHERE nickname = :nickname LIMIT 1")
     Jogador buscarPorNickname(String nickname);
+
+    //Atribui um novo idTime para o jogador cujo idJogador for informado.
+    @Query("UPDATE Jogador SET idTime = :idTime WHERE idJogador = :idJogador")
+    void setarTimeJogador(int idJogador, int idTime);
 
     //Listar os jogos que o jogador participou e deletar
     @Query("SELECT * FROM Partida " +

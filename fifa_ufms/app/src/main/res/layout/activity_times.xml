@@ -30,5 +30,46 @@
             android:textStyle="bold"
             android:layout_marginStart="8dp"/>
     </LinearLayout>
+    <!-- Título da seção + botão novo time -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/section_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/section_times"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_add_jogador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_jogador_button"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:contentDescription="@string/add_time_button"/>
+
+    </LinearLayout>
+
+    <!-- RecyclerView para lista de times -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_times"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="16dp"/>
+
 
 </LinearLayout>

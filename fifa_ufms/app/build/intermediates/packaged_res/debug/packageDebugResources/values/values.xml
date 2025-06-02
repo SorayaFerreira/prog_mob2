@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <string name="add_jogador_button">Novo</string>
     <string name="add_jogador_desc">Adicionar novo jogador</string>
+    <string name="add_time_button">Novo</string>
     <string name="app_name">FIFA UFMS</string>
     <string name="back_button_desc">Voltar</string>
     <string name="card_jogadores_sub">Encontre os melhores jogadores</string>
@@ -35,6 +36,7 @@
     <string name="name_label">Nome</string>
     <string name="save_button">Salvar</string>
     <string name="section_jogadores">Jogadores cadastrados</string>
+    <string name="section_times">Times cadastrados</string>
     <string name="title_jogadores">Jogadores</string>
     <string name="title_jogadores_form">Cadastrar Jogador</string>
     <string name="title_partidas">Partidas</string>
