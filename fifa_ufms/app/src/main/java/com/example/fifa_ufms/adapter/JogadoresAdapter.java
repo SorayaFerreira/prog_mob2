@@ -58,7 +58,7 @@ public class JogadoresAdapter extends RecyclerView.Adapter<JogadoresAdapter.View
         holder.buttonDelete.setOnClickListener(v -> {
             new AlertDialog.Builder(context)
                     .setTitle("Confirmar exclusão")
-                    .setMessage("Deseja excluir este jogador e todas as partidas do time dele?")
+                    .setMessage("Deseja excluir este jogador e todas as partidas que ele jogou?")
                     .setPositiveButton("Sim", (dialog, which) -> {
                         CampeonatoDatabase db = Room.databaseBuilder(context,
                                         CampeonatoDatabase.class, "campeonato")
