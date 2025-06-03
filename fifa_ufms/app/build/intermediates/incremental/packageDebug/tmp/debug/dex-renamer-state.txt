@@ -1,11 +1,11 @@
-#Mon Jun 02 15:24:44 AMT 2025
-base.0=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.4=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.5=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.6=C\:\\Users\\caiof\\Desktop\\Trabalho prog 2\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Mon Jun 02 23:05:30 AMT 2025
+base.0=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.3=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.4=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.5=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.6=/home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex
