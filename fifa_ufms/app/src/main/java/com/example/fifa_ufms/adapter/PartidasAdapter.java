@@ -96,7 +96,8 @@ public class PartidasAdapter extends BaseAdapter {
 
         buttonEdit.setOnClickListener(v -> {
             Intent intent = new Intent(context, PartidasFormActivity.class);
-            intent.putExtra("ID_PARTIDA", partida.getIdPartida());
+            intent.putExtra("ID_PARTIDA", partida.idPartida);
+            Toast.makeText(context, "Editar partida ID: " + partida.idPartida, Toast.LENGTH_SHORT).show();
             context.startActivity(intent);
 
         });

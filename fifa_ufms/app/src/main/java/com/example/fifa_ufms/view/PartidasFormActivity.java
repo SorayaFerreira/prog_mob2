@@ -14,14 +14,11 @@ import androidx.room.Room;
 
 import com.example.fifa_ufms.R;
 import com.example.fifa_ufms.database.CampeonatoDatabase;
-import com.example.fifa_ufms.database.JogadorDao;
 import com.example.fifa_ufms.database.PartidaDao;
 import com.example.fifa_ufms.database.TimeDao;
-
 import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Time;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -35,6 +32,7 @@ public class PartidasFormActivity extends AppCompatActivity {
     private List<Time> listaTimes;
 
     private int partidaId = -1;
+    private boolean isEditando = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +59,8 @@ public class PartidasFormActivity extends AppCompatActivity {
 
         if (getIntent().hasExtra("ID_PARTIDA")) {
             partidaId = getIntent().getIntExtra("ID_PARTIDA", -1);
-
             if (partidaId != -1) {
+                isEditando = true;
                 titleText.setText(getString(R.string.editar_partida));
                 buttonSalvar.setText(getString(R.string.atualizar_partida));
 
@@ -71,9 +69,6 @@ public class PartidasFormActivity extends AppCompatActivity {
                     preencherFormulario(partidaExistente);
                 }
             }
-        } else {
-            titleText.setText(getString(R.string.cadastrar_partida));
-            buttonSalvar.setText(getString(R.string.salvar_partida));
         }
 
         buttonSalvar.setOnClickListener(v -> salvarPartida());
@@ -114,17 +109,19 @@ public class PartidasFormActivity extends AppCompatActivity {
         int idTime2 = listaTimes.get(spinnerTime2.getSelectedItemPosition()).idTime;
 
         Partida partida = new Partida();
-        partida.idPartida = partidaId; // ESSENCIAL
+        if (isEditando) {
+            partida.idPartida = partidaId; // só define o ID se for edição
+        }
         partida.data = data;
         partida.placarTime1 = placar1;
         partida.placarTime2 = placar2;
         partida.time1 = idTime1;
         partida.time2 = idTime2;
 
-        if (partidaId == -1) {
-            partidaDao.inserirPartida(partida);
-        } else {
+        if (isEditando) {
             partidaDao.atualizarPartida(partida);
+        } else {
+            partidaDao.inserirPartida(partida);
         }
 
         Toast.makeText(this, "Partida salva com sucesso!", Toast.LENGTH_SHORT).show();
