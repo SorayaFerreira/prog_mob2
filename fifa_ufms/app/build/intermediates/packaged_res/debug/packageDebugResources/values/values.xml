@@ -49,6 +49,7 @@
     <string name="save_button">Salvar</string>
     <string name="section_jogadores">Jogadores cadastrados</string>
     <string name="section_times">Times cadastrados</string>
+    <string name="selecionar_jogador">Add jogador ao time</string>
     <string name="title_jogadores">Jogadores</string>
     <string name="title_jogadores_form">Cadastrar Jogador</string>
     <string name="title_partidas">Partidas</string>

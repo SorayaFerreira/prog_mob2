@@ -15,7 +15,7 @@ import java.util.List;
 public interface TimeDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     long[] inserirTime(Time... time);
-    @Update
+    @Update()
     void atualizarTime(Time... time);
     @Delete
     void deletarTime(Time... time);

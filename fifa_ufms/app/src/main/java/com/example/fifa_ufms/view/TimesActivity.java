@@ -16,14 +16,14 @@ import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.entities.Time;
 
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executors;
 
 public class TimesActivity extends AppCompatActivity {
-
     private RecyclerView recyclerView;
     private TimesAdapter adapter;
     private List<Time> timesList;
-
     private CampeonatoDatabase db;
 
     @Override
@@ -31,46 +31,66 @@ public class TimesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_times);
 
-        // 1) Botão de voltar
-        ImageButton backButton = findViewById(R.id.back_button);
-        backButton.setOnClickListener(v -> finish());
+        // 1) instancia a lista para não ser null
+        timesList = new ArrayList<>();
 
-        // 2) Botão “Novo Time”
-        //Button newButton = findViewById(R.id.button_new_time);
-        //newButton.setOnClickListener(v -> {
-            // Navegar para TimeFormActivity em modo de CADASTRO (sem extras)
-           // Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);
-           // startActivity(intent);
-      ///  });
+        // 2) obtém instância do banco (Room)
+        db = CampeonatoDatabase.getInstance(this);
 
-        // 3) Configura RecyclerView
+        // 3) configura RecyclerView e Adapter (com listener para clique)
         recyclerView = findViewById(R.id.recycler_times);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        adapter = new TimesAdapter(
+                this,
+                timesList,
+                new TimesAdapter.OnTimeClickListener() {
+                    @Override
+                    public void onTimeClick(Time time) {
+                        // navega para TimeFormActivity em modo edição
+                        Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);
+                        intent.putExtra(TimeFormActivity.EXTRA_ID_TIME, time.getIdTime());
+                        intent.putExtra(TimeFormActivity.EXTRA_NOME_TIME, time.getNomeTime());
+                        intent.putExtra(TimeFormActivity.EXTRA_COR_UNIFORME, time.getCorUniforme());
+                        startActivity(intent);
+                    }
+                }
+        );
+        recyclerView.setAdapter(adapter);
 
-        // 4) Busca lista de Times do banco
-        db = CampeonatoDatabase.getInstance(getApplicationContext());
-        //timesList = db.timeDao().getAllTimes();
-
-        // 5) Configura o Adapter passando o listener de clique em cada card
-        adapter = new TimesAdapter(timesList, time -> {
-            // Ao clicar num item da lista, navegar para TimeFormActivity em modo EDIÇÃO
+        // 4) botão “Novo Time”
+        Button btnNovoTime = findViewById(R.id.button_add_time);
+        btnNovoTime.setOnClickListener(v -> {
             Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);
-            // Passa os extras: id, nome e cor do uniforme
-            intent.putExtra(TimeFormActivity.EXTRA_ID_TIME, time.getIdTime());
-            intent.putExtra(TimeFormActivity.EXTRA_NOME_TIME, time.getNomeTime());
-            intent.putExtra(TimeFormActivity.EXTRA_COR_UNIFORME, time.getCorUniforme());
             startActivity(intent);
         });
 
-        recyclerView.setAdapter(adapter);
+        // 5) carrega os dados iniciais de “times” de forma assíncrona
+        loadTimesFromDatabase();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        // Toda vez que a Activity voltar ao primeiro plano, re-carregamos a lista (para pegar inserções/edições recentes)
-        timesList.clear();
-       // timesList.addAll(db.timeDao().getAllTimes());
-        adapter.notifyDataSetChanged();
+        // sempre que a Activity voltar ao foco, recarregamos a lista de forma assíncrona:
+        loadTimesFromDatabase();
+    }
+
+    /**
+     * Método que executa a consulta em background e atualiza o adapter na UI thread.
+     */
+    private void loadTimesFromDatabase() {
+        // Usa um Executor de thread única para não bloquear a UI
+        Executors.newSingleThreadExecutor().execute(() -> {
+            // 1) pega todos os times do banco (dentro de thread de background)
+            final List<Time> listaTemporaria = db.timeDao().listarTodosTimes();
+
+            // 2) volta para a main thread para atualizar o RecyclerView
+            runOnUiThread(() -> {
+                timesList.clear();
+                timesList.addAll(listaTemporaria);
+                adapter.notifyDataSetChanged();
+            });
+        });
     }
 }
+

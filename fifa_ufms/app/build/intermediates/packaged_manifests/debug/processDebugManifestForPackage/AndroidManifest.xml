@@ -41,6 +41,7 @@
 
         <!-- Tela de Times -->
         <activity android:name="com.example.fifa_ufms.view.TimesActivity" />
+        <activity android:name="com.example.fifa_ufms.view.TimeFormActivity" />
 
         <!-- Tela de Jogadores (lista) -->
         <activity android:name="com.example.fifa_ufms.view.JogadoresActivity" />
