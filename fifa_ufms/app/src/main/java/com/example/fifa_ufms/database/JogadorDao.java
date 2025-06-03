@@ -32,7 +32,7 @@ public interface JogadorDao {
     List<Jogador> listarJogadoresSemTime();
     //Atribui um novo idTime para o jogador cujo idJogador for informado.
     @Query("UPDATE Jogador SET idTime = :idTime WHERE idJogador = :idJogador")
-    void setarTimeJogador(int idJogador, int idTime);
+    void setarTimeJogador(int idTime, int idJogador);
 
     //Listar os jogos que o jogador participou e deletar
     @Query("SELECT * FROM Partida " +

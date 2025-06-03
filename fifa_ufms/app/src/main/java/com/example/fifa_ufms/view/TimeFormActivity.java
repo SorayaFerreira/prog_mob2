@@ -221,8 +221,9 @@ public class TimeFormActivity extends AppCompatActivity {
                     timeDao.atualizarTime(timeAtualizado);
 
                     // 2) Atualiza referência de timeId para cada jogador no banco
-                    for (Jogador j : listaJogadoresAtuais) {
-                        jogadorDao.setarTimeJogador(timeId, j.getIdJogador());
+                    for (Jogador jogador : listaJogadoresAtuais) {
+                        jogador.setIdTime(timeId);
+                        jogadorDao.setarTimeJogador(timeId, jogador.getIdJogador());
                     }
 
                     // 3) Volta para a UI para mostrar Toast e finalizar Activity
@@ -258,11 +259,12 @@ public class TimeFormActivity extends AppCompatActivity {
                 new Thread(() -> {
                     // 1) Insere novo Time e obtém o array de IDs (Room retorna long[])
                     long[] novoIdLong = timeDao.inserirTime(novoTime);
-                    int novoId = (int) novoIdLong[0]; // pega o id gerado
+                    int idNovoTime = (int) novoIdLong[0]; // pega o id gerado
 
                     // 2) Associa cada jogador da lista a esse novo time
-                    for (Jogador j : listaJogadoresAtuais) {
-                        jogadorDao.setarTimeJogador(novoId, j.getIdJogador());
+                    for (Jogador jogador : listaJogadoresAtuais) {
+                        jogador.setIdTime(idNovoTime);
+                        jogadorDao.setarTimeJogador(idNovoTime, jogador.getIdJogador());
                     }
 
                     // 3) Volta para a UI para mostrar Toast e finalizar Activity
