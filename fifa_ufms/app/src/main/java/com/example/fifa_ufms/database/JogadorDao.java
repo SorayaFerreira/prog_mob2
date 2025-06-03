@@ -27,7 +27,9 @@ public interface JogadorDao {
     List<Jogador> listarJogadoresPorTime(int idTime);
     @Query("SELECT * FROM Jogador WHERE nickname = :nickname LIMIT 1")
     Jogador buscarPorNickname(String nickname);
-
+    //listar todos jogadores ainda sem time
+    @Query("SELECT * FROM Jogador") //WHERE idTime = 0
+    List<Jogador> listarJogadoresSemTime();
     //Atribui um novo idTime para o jogador cujo idJogador for informado.
     @Query("UPDATE Jogador SET idTime = :idTime WHERE idJogador = :idJogador")
     void setarTimeJogador(int idJogador, int idTime);

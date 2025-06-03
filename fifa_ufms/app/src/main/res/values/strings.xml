@@ -23,6 +23,7 @@
     <string name="em_construcao">Em construção...</string>
     <string name="add_time_button">Novo</string>
     <string name="section_times">Times cadastrados</string>
+    <string name="selecionar_jogador">Add jogador ao time</string>
 
     <!-- Tela: Jogadores -->
     <string name="title_jogadores">Jogadores</string>

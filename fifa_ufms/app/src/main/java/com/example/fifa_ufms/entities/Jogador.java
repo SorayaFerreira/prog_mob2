@@ -2,6 +2,7 @@ package com.example.fifa_ufms.entities;
 
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
+import androidx.room.Ignore;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
 @Entity(indices = {@Index(value = {"nickname"}, unique = true)},
@@ -34,7 +35,18 @@ public class Jogador {
         this.nome = nome;
         this.idTime = idTime;
     }
+    @Ignore
+    public Jogador(String nome) {
+        this.nome = nome;
+    }
 
+    @Override
+    public String toString() {
+        if (nome == null) {
+            return nickname;
+        }
+        return nome;  // to string retorna apelido para spinner
+    }
     public int getIdJogador() {
         return idJogador;
     }

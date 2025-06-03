@@ -30,7 +30,6 @@ id buttonSave
 id button_add_jogador
 id button_add_partida
 id button_add_time
-id button_cancel
 id button_edit_jogador
 id button_salvar_time
 id card_jogadores
@@ -50,7 +49,6 @@ id editNumeroVermelhos
 id editTextData
 id editTextPlacarTime1
 id editTextPlacarTime2
-id editTextPlayerName
 id edittextNomeJogador
 id image_jogador_icon
 id input_cor_uniforme
@@ -59,11 +57,12 @@ id labelTeamColor
 id labelTeamName
 id list_view_partidas
 id main
-id recyclerViewJogadores
+id recyclerViewJogadoresNoTime
 id recycler_jogadores
 id recycler_times
 id scrollViewTimeForm
 id section_title
+id spinnerJogadoresSemTime
 id spinnerTime1
 id spinnerTime2
 id textData
@@ -89,8 +88,8 @@ layout activity_partidas
 layout activity_time_form
 layout activity_times
 layout item_jogador
+layout item_jogador_notime
 layout item_partida
-layout item_stringname_jogador
 layout item_time
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -134,6 +133,7 @@ string salvar_partida
 string save_button
 string section_jogadores
 string section_times
+string selecionar_jogador
 string title_jogadores
 string title_jogadores_form
 string title_partidas

@@ -3236,7 +3236,6 @@ id buttonSave
 id button_add_jogador
 id button_add_partida
 id button_add_time
-id button_cancel
 id button_edit_jogador
 id button_salvar_time
 id cache_measures
@@ -3328,7 +3327,6 @@ id editNumeroVermelhos
 id editTextData
 id editTextPlacarTime1
 id editTextPlacarTime2
-id editTextPlayerName
 id edit_query
 id edit_text_id
 id edittextNomeJogador
@@ -3526,7 +3524,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id recyclerViewJogadores
+id recyclerViewJogadoresNoTime
 id recycler_jogadores
 id recycler_times
 id report_drawn
@@ -3579,6 +3577,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerJogadoresSemTime
 id spinnerTime1
 id spinnerTime2
 id spline
@@ -3831,8 +3830,8 @@ layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_jogador
+layout item_jogador_notime
 layout item_partida
-layout item_stringname_jogador
 layout item_time
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -4101,6 +4100,7 @@ string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string section_jogadores
 string section_times
+string selecionar_jogador
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow

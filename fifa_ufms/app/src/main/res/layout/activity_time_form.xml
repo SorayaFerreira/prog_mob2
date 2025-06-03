@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/scrollViewTimeForm"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:padding="16dp">
+    android:padding="16dp"
+    app:circularflow_radiusInDP="120dp">
 
     <LinearLayout
         android:id="@+id/containerTimeForm"
@@ -88,16 +90,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:background="@color/background"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/editTextPlayerName"
-                android:layout_width="0dp"
+            <Spinner
+                android:id="@+id/spinnerJogadoresSemTime"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:hint="Nome do Jogador"
-                android:inputType="textPersonName" />
+                android:prompt="@string/selecionar_jogador" />
 
             <ImageButton
                 android:id="@+id/button_add_jogador"
@@ -111,7 +112,7 @@
 
         <!-- RecyclerView mostrando lista de jogadores adicionados -->
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewJogadores"
+            android:id="@+id/recyclerViewJogadoresNoTime"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -123,22 +124,16 @@
             android:id="@+id/containerButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:gravity="end"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button_cancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cancelar" />
-
-            <Button
                 android:id="@+id/button_salvar_time"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Salvar" />
+                android:backgroundTint="@color/primary"
+                android:text="Salvar"
+                android:textColor="@color/background" />
         </LinearLayout>
 
     </LinearLayout>

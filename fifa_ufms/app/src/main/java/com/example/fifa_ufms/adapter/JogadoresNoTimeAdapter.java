@@ -29,7 +29,7 @@ public class JogadoresNoTimeAdapter extends RecyclerView.Adapter<JogadoresNoTime
     @Override
     public JogadoresNoTimeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         // Infla o layout item_jogador.xml
-        View view = LayoutInflater.from(context).inflate(R.layout.item_jogador, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_jogador_notime, parent, false);
         return new JogadoresNoTimeViewHolder(view);
     }
 

@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.databinding.ActivityJogadorFormBinding;
 import com.example.fifa_ufms.entities.Jogador;
+import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Time;
 
 import java.util.concurrent.Executors;
@@ -26,16 +27,6 @@ public class JogadorFormActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityJogadorFormBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        // Inserir time padrão
-        Executors.newSingleThreadExecutor().execute(() -> {
-            CampeonatoDatabase db = CampeonatoDatabase.getInstance(getApplicationContext());
-
-            if (db.timeDao().listarTodosTimes().isEmpty()) {
-                Time time = new Time("UFMS FC", "Verde");
-                db.timeDao().inserirTime(time);
-            }
-        });
 
         binding.backButton.setOnClickListener(v -> finish());
 

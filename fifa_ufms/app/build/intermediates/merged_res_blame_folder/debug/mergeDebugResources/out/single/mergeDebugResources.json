@@ -84,6 +84,10 @@
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.fifa_ufms.app-debug-4:/layout_item_jogador_notime.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-6:/layout/item_jogador_notime.xml"
+    },
+    {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -158,10 +162,6 @@
     {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "com.example.fifa_ufms.app-debug-4:/layout_activity_times.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-6:/layout/activity_times.xml"
     },
     {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
