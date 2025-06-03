@@ -7,6 +7,14 @@
     android:background="@color/white"
     android:padding="16dp">
 
+    <ImageButton
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:contentDescription="Deletar"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
     <!-- Data da Partida -->
     <TextView
         android:id="@+id/textData"

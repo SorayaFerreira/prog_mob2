@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-33:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-2:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\caiof\\.gradle\\caches\\8.11.1\\transforms\\2fd02786082f41309bc57244ad65f027\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\caiof\\Desktop\\prog_mob2\\fifa_ufms\\caches\\8.11.1\\transforms\\2fd02786082f41309bc57244ad65f027\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -30,6 +30,7 @@ id buttonSave
 id button_add_jogador
 id button_add_partida
 id button_cancel
+id button_delete
 id button_edit_jogador
 id button_salvar_time
 id card_jogadores
