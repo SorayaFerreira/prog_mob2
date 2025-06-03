@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-2:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.fifa_ufms.app-mergeDebugResources-33:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joaou\\.gradle\\caches\\8.11.1\\transforms\\4c784791716b1b38cb8ce6d0d2f71a9f\\transformed\\material-1.12.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "/home/soraya/.gradle/caches/8.11.1/transforms/4c784791716b1b38cb8ce6d0d2f71a9f/transformed/material-1.12.0/res/values-h320dp-port-v13/values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
