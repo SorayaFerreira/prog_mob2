@@ -1,4 +1,4 @@
-#Tue Jun 03 09:13:36 AMT 2025
+#Tue Jun 03 09:37:25 AMT 2025
 base.0=C\:\\Projetos\\Estudo\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Projetos\\Estudo\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Projetos\\Estudo\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
