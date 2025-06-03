@@ -44,6 +44,8 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 .gradle/
+# Arquivos locais do Android Studio
+/local.properties
 build/
 **/build/
 !gradle/wrapper/gradle-wrapper.jar
