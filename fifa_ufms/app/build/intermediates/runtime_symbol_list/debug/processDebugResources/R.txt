@@ -3238,6 +3238,7 @@ int id button_cancel 0x7f09006c
 int id button_delete 0x7f09006d
 int id button_delete_jogador 0x7f09006e
 int id button_edit_jogador 0x7f09006f
+int id button_edit_partida 0x7f090234
 int id button_salvar_time 0x7f090070
 int id cache_measures 0x7f090071
 int id callMeasure 0x7f090072
@@ -3929,6 +3930,7 @@ int string add_time_button 0x7f10001d
 int string androidx_startup 0x7f10001e
 int string app_name 0x7f10001f
 int string appbar_scrolling_view_behavior 0x7f100020
+int string atualizar_partida 0x7f1000d3
 int string back_button_desc 0x7f100021
 int string bot_o_para_adicionar_partida 0x7f100022
 int string bottom_sheet_behavior 0x7f100023
@@ -3958,6 +3960,7 @@ int string clear_text_end_icon_content_description 0x7f10003a
 int string data_01_06_2025 0x7f10003b
 int string data_da_partida_dd_mm_yyyy 0x7f10003c
 int string edit_jogador_desc 0x7f10003d
+int string editar_partida 0x7f1000d4
 int string em_construcao 0x7f10003e
 int string empty_list_jogadores 0x7f10003f
 int string error_a11y_label 0x7f100040

@@ -3,6 +3,7 @@ package com.example.fifa_ufms.adapter;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,7 @@ import com.example.fifa_ufms.database.PartidaDao;
 import com.example.fifa_ufms.database.TimeDao;
 import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Time;
+import com.example.fifa_ufms.view.PartidasFormActivity;
 
 import java.util.List;
 
@@ -89,6 +91,16 @@ public class PartidasAdapter extends BaseAdapter {
                     .setNegativeButton("Não", null)
                     .show();
         });
+
+        ImageButton buttonEdit = convertView.findViewById(R.id.button_edit_partida);
+
+        buttonEdit.setOnClickListener(v -> {
+            Intent intent = new Intent(context, PartidasFormActivity.class);
+            intent.putExtra("ID_PARTIDA", partida.getIdPartida());
+            context.startActivity(intent);
+
+        });
+
 
         return convertView;
     }

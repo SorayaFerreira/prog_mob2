@@ -33,6 +33,7 @@ id button_cancel
 id button_delete
 id button_delete_jogador
 id button_edit_jogador
+id button_edit_partida
 id button_salvar_time
 id card_jogadores
 id card_partidas
@@ -97,6 +98,7 @@ string add_jogador_button
 string add_jogador_desc
 string add_time_button
 string app_name
+string atualizar_partida
 string back_button_desc
 string bot_o_para_adicionar_partida
 string cadastrar_partida
@@ -109,6 +111,7 @@ string card_times_title
 string data_01_06_2025
 string data_da_partida_dd_mm_yyyy
 string edit_jogador_desc
+string editar_partida
 string em_construcao
 string empty_list_jogadores
 string header_slogan

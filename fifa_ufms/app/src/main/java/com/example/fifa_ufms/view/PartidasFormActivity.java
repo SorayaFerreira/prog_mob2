@@ -6,6 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +17,7 @@ import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.database.JogadorDao;
 import com.example.fifa_ufms.database.PartidaDao;
 import com.example.fifa_ufms.database.TimeDao;
-import com.example.fifa_ufms.entities.Jogador;
+
 import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Time;
 
@@ -30,9 +31,9 @@ public class PartidasFormActivity extends AppCompatActivity {
     private Button buttonSalvar;
 
     private PartidaDao partidaDao;
-    private TimeDao timeDao; // ou JogadorDao se preferir usar jogadores diretamente
-
+    private TimeDao timeDao;
     private List<Time> listaTimes;
+
     private int partidaId = -1;
 
     @Override
@@ -46,26 +47,63 @@ public class PartidasFormActivity extends AppCompatActivity {
         spinnerTime1 = findViewById(R.id.spinnerTime1);
         spinnerTime2 = findViewById(R.id.spinnerTime2);
         buttonSalvar = findViewById(R.id.buttonSalvar);
+        TextView titleText = findViewById(R.id.titleText);
 
         CampeonatoDatabase db = Room.databaseBuilder(getApplicationContext(),
-                CampeonatoDatabase.class, "campeonato").allowMainThreadQueries().build();
+                        CampeonatoDatabase.class, "campeonato")
+                .allowMainThreadQueries()
+                .build();
 
         partidaDao = db.partidaDao();
-        timeDao = db.timeDao(); // se usar times
+        timeDao = db.timeDao();
 
         carregarTimesNoSpinner();
+
+        if (getIntent().hasExtra("ID_PARTIDA")) {
+            partidaId = getIntent().getIntExtra("ID_PARTIDA", -1);
+
+            if (partidaId != -1) {
+                titleText.setText(getString(R.string.editar_partida));
+                buttonSalvar.setText(getString(R.string.atualizar_partida));
+
+                Partida partidaExistente = partidaDao.buscaPorId(partidaId);
+                if (partidaExistente != null) {
+                    preencherFormulario(partidaExistente);
+                }
+            }
+        } else {
+            titleText.setText(getString(R.string.cadastrar_partida));
+            buttonSalvar.setText(getString(R.string.salvar_partida));
+        }
 
         buttonSalvar.setOnClickListener(v -> salvarPartida());
     }
 
     private void carregarTimesNoSpinner() {
-        listaTimes = timeDao.listarTodosTimes(); // ou jogadorDao.getAllNicknames()
-        ArrayAdapter adapter = new ArrayAdapter<>(this,
+        listaTimes = timeDao.listarTodosTimes();
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item,
-                (List) listaTimes.stream().map(t -> t.nomeTime).collect(Collectors.toList()));
+                listaTimes.stream().map(t -> t.nomeTime).collect(Collectors.toList()));
+
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerTime1.setAdapter(adapter);
         spinnerTime2.setAdapter(adapter);
+    }
+
+    private void preencherFormulario(Partida partida) {
+        editTextData.setText(partida.data);
+        editTextPlacar1.setText(String.valueOf(partida.placarTime1));
+        editTextPlacar2.setText(String.valueOf(partida.placarTime2));
+
+        for (int i = 0; i < listaTimes.size(); i++) {
+            if (listaTimes.get(i).idTime == partida.time1) {
+                spinnerTime1.setSelection(i);
+            }
+            if (listaTimes.get(i).idTime == partida.time2) {
+                spinnerTime2.setSelection(i);
+            }
+        }
     }
 
     private void salvarPartida() {
@@ -76,17 +114,20 @@ public class PartidasFormActivity extends AppCompatActivity {
         int idTime2 = listaTimes.get(spinnerTime2.getSelectedItemPosition()).idTime;
 
         Partida partida = new Partida();
+        partida.idPartida = partidaId; // ESSENCIAL
         partida.data = data;
         partida.placarTime1 = placar1;
         partida.placarTime2 = placar2;
         partida.time1 = idTime1;
         partida.time2 = idTime2;
 
-        partidaDao.inserirPartida(partida);
+        if (partidaId == -1) {
+            partidaDao.inserirPartida(partida);
+        } else {
+            partidaDao.atualizarPartida(partida);
+        }
 
-        Toast.makeText(this, "Partida salva!", Toast.LENGTH_SHORT).show();
-        finish();
-
+        Toast.makeText(this, "Partida salva com sucesso!", Toast.LENGTH_SHORT).show();
         finish();
     }
 }

@@ -1,38 +1,38 @@
-com.example.fifa_ufms.app-pngs-0 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\build\generated\res\pngs\debug
-com.example.fifa_ufms.app-resValues-1 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\build\generated\res\resValues\debug
-com.example.fifa_ufms.app-packageDebugResources-2 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.fifa_ufms.app-packageDebugResources-3 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.fifa_ufms.app-debug-4 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.fifa_ufms.app-debug-5 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\src\debug\res
-com.example.fifa_ufms.app-main-6 C:\Users\caiof\Desktop\Trabalho prog 2\prog_mob2\fifa_ufms\app\src\main\res
-com.example.fifa_ufms.app-sqlite-framework-release-7 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\01c0cdb8d410d1347b81e10702d48ac6\transformed\sqlite-framework-release\res
-com.example.fifa_ufms.app-lifecycle-runtime-2.6.2-8 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\074a8585f92738751b0a2f7daec0f056\transformed\lifecycle-runtime-2.6.2\res
-com.example.fifa_ufms.app-core-ktx-1.13.0-9 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\078134bd2b7b570b8dd0602bcebae9a4\transformed\core-ktx-1.13.0\res
-com.example.fifa_ufms.app-sqlite-release-10 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\08314b786cb5f870666773e1b930ea8a\transformed\sqlite-release\res
-com.example.fifa_ufms.app-lifecycle-viewmodel-savedstate-2.6.2-11 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\0a2ce8cab532354fc2803d049d1e0c2d\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
-com.example.fifa_ufms.app-lifecycle-livedata-2.6.2-12 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\19f46d9e9b7d22bb2f7916af092d7406\transformed\lifecycle-livedata-2.6.2\res
-com.example.fifa_ufms.app-emoji2-1.3.0-13 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\2a054d078bd6efce59be901ba5334097\transformed\emoji2-1.3.0\res
-com.example.fifa_ufms.app-appcompat-1.7.0-14 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\2fd02786082f41309bc57244ad65f027\transformed\appcompat-1.7.0\res
-com.example.fifa_ufms.app-constraintlayout-2.2.1-15 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\3b471ffbdb715707ce0d099e7a4e1473\transformed\constraintlayout-2.2.1\res
-com.example.fifa_ufms.app-core-1.13.0-16 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\40611b1c4ff9b27f1f287e1e90b17292\transformed\core-1.13.0\res
-com.example.fifa_ufms.app-material-1.12.0-17 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\4c784791716b1b38cb8ce6d0d2f71a9f\transformed\material-1.12.0\res
-com.example.fifa_ufms.app-recyclerview-1.1.0-18 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\58817f6b6dadb8dd830a0f483b8aaa54\transformed\recyclerview-1.1.0\res
-com.example.fifa_ufms.app-emoji2-views-helper-1.3.0-19 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\78ffd5ba643e043d6c58fb3fc0c6e30d\transformed\emoji2-views-helper-1.3.0\res
-com.example.fifa_ufms.app-profileinstaller-1.4.0-20 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\80a516288867909636e4026d2e186b45\transformed\profileinstaller-1.4.0\res
-com.example.fifa_ufms.app-core-runtime-2.2.0-21 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\85c9ab223bcbe897d4c1a400b40f041c\transformed\core-runtime-2.2.0\res
-com.example.fifa_ufms.app-lifecycle-livedata-core-2.6.2-22 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\9190f6d400b71a8dd1e2f4191d4b1889\transformed\lifecycle-livedata-core-2.6.2\res
-com.example.fifa_ufms.app-annotation-experimental-1.4.1-23 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\976df73d720432788dc66621b86e0d50\transformed\annotation-experimental-1.4.1\res
-com.example.fifa_ufms.app-savedstate-1.2.1-24 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\979f5d072b010919a6cf5595dceb6636\transformed\savedstate-1.2.1\res
-com.example.fifa_ufms.app-startup-runtime-1.1.1-25 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\9a54842fff5d3cbf9c7117f9f3a37c8b\transformed\startup-runtime-1.1.1\res
-com.example.fifa_ufms.app-core-viewtree-1.0.0-26 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\af906964cf0ffc2b2d356c3bd0f348dd\transformed\core-viewtree-1.0.0\res
-com.example.fifa_ufms.app-coordinatorlayout-1.1.0-27 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\c8683ffee489922634ab519cbf9c6d09\transformed\coordinatorlayout-1.1.0\res
-com.example.fifa_ufms.app-activity-1.10.1-28 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\c9c3e7ffb9d902bc840a3d8c3fcf130d\transformed\activity-1.10.1\res
-com.example.fifa_ufms.app-appcompat-resources-1.7.0-29 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\cdb59a15af7755793a9aba4afb5d18b9\transformed\appcompat-resources-1.7.0\res
-com.example.fifa_ufms.app-transition-1.5.0-30 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\cdc4e0260ae6acff4804c950d2c8d90f\transformed\transition-1.5.0\res
-com.example.fifa_ufms.app-viewpager2-1.0.0-31 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\d4e609df9f8e12c78de7a8762dc4d7e2\transformed\viewpager2-1.0.0\res
-com.example.fifa_ufms.app-fragment-1.5.4-32 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\d5540f898409175b17c88b31f9777e98\transformed\fragment-1.5.4\res
-com.example.fifa_ufms.app-cardview-1.0.0-33 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\e0127232c82497cf78307d761d8577d1\transformed\cardview-1.0.0\res
-com.example.fifa_ufms.app-room-runtime-release-34 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\e79f9f74dab4bbe7f163aec73f106306\transformed\room-runtime-release\res
-com.example.fifa_ufms.app-lifecycle-process-2.6.2-35 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\e97df847a099d641d8ecafa819296812\transformed\lifecycle-process-2.6.2\res
-com.example.fifa_ufms.app-drawerlayout-1.1.1-36 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\f053198baa000a28d151a315d01737c5\transformed\drawerlayout-1.1.1\res
-com.example.fifa_ufms.app-lifecycle-viewmodel-2.6.2-37 C:\Users\caiof\Desktop\prog_mob2\fifa_ufms\caches\8.11.1\transforms\fabd8e59800015c265080d8ceac4489a\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.fifa_ufms.app-sqlite-framework-release-0 /home/soraya/.gradle/caches/8.11.1/transforms/01c0cdb8d410d1347b81e10702d48ac6/transformed/sqlite-framework-release/res
+com.example.fifa_ufms.app-lifecycle-runtime-2.6.2-1 /home/soraya/.gradle/caches/8.11.1/transforms/074a8585f92738751b0a2f7daec0f056/transformed/lifecycle-runtime-2.6.2/res
+com.example.fifa_ufms.app-core-ktx-1.13.0-2 /home/soraya/.gradle/caches/8.11.1/transforms/078134bd2b7b570b8dd0602bcebae9a4/transformed/core-ktx-1.13.0/res
+com.example.fifa_ufms.app-sqlite-release-3 /home/soraya/.gradle/caches/8.11.1/transforms/08314b786cb5f870666773e1b930ea8a/transformed/sqlite-release/res
+com.example.fifa_ufms.app-lifecycle-viewmodel-savedstate-2.6.2-4 /home/soraya/.gradle/caches/8.11.1/transforms/0a2ce8cab532354fc2803d049d1e0c2d/transformed/lifecycle-viewmodel-savedstate-2.6.2/res
+com.example.fifa_ufms.app-lifecycle-livedata-2.6.2-5 /home/soraya/.gradle/caches/8.11.1/transforms/19f46d9e9b7d22bb2f7916af092d7406/transformed/lifecycle-livedata-2.6.2/res
+com.example.fifa_ufms.app-emoji2-1.3.0-6 /home/soraya/.gradle/caches/8.11.1/transforms/2a054d078bd6efce59be901ba5334097/transformed/emoji2-1.3.0/res
+com.example.fifa_ufms.app-appcompat-1.7.0-7 /home/soraya/.gradle/caches/8.11.1/transforms/2fd02786082f41309bc57244ad65f027/transformed/appcompat-1.7.0/res
+com.example.fifa_ufms.app-constraintlayout-2.2.1-8 /home/soraya/.gradle/caches/8.11.1/transforms/3b471ffbdb715707ce0d099e7a4e1473/transformed/constraintlayout-2.2.1/res
+com.example.fifa_ufms.app-core-1.13.0-9 /home/soraya/.gradle/caches/8.11.1/transforms/40611b1c4ff9b27f1f287e1e90b17292/transformed/core-1.13.0/res
+com.example.fifa_ufms.app-material-1.12.0-10 /home/soraya/.gradle/caches/8.11.1/transforms/4c784791716b1b38cb8ce6d0d2f71a9f/transformed/material-1.12.0/res
+com.example.fifa_ufms.app-recyclerview-1.1.0-11 /home/soraya/.gradle/caches/8.11.1/transforms/58817f6b6dadb8dd830a0f483b8aaa54/transformed/recyclerview-1.1.0/res
+com.example.fifa_ufms.app-emoji2-views-helper-1.3.0-12 /home/soraya/.gradle/caches/8.11.1/transforms/78ffd5ba643e043d6c58fb3fc0c6e30d/transformed/emoji2-views-helper-1.3.0/res
+com.example.fifa_ufms.app-profileinstaller-1.4.0-13 /home/soraya/.gradle/caches/8.11.1/transforms/80a516288867909636e4026d2e186b45/transformed/profileinstaller-1.4.0/res
+com.example.fifa_ufms.app-core-runtime-2.2.0-14 /home/soraya/.gradle/caches/8.11.1/transforms/85c9ab223bcbe897d4c1a400b40f041c/transformed/core-runtime-2.2.0/res
+com.example.fifa_ufms.app-lifecycle-livedata-core-2.6.2-15 /home/soraya/.gradle/caches/8.11.1/transforms/9190f6d400b71a8dd1e2f4191d4b1889/transformed/lifecycle-livedata-core-2.6.2/res
+com.example.fifa_ufms.app-annotation-experimental-1.4.1-16 /home/soraya/.gradle/caches/8.11.1/transforms/976df73d720432788dc66621b86e0d50/transformed/annotation-experimental-1.4.1/res
+com.example.fifa_ufms.app-savedstate-1.2.1-17 /home/soraya/.gradle/caches/8.11.1/transforms/979f5d072b010919a6cf5595dceb6636/transformed/savedstate-1.2.1/res
+com.example.fifa_ufms.app-startup-runtime-1.1.1-18 /home/soraya/.gradle/caches/8.11.1/transforms/9a54842fff5d3cbf9c7117f9f3a37c8b/transformed/startup-runtime-1.1.1/res
+com.example.fifa_ufms.app-core-viewtree-1.0.0-19 /home/soraya/.gradle/caches/8.11.1/transforms/af906964cf0ffc2b2d356c3bd0f348dd/transformed/core-viewtree-1.0.0/res
+com.example.fifa_ufms.app-coordinatorlayout-1.1.0-20 /home/soraya/.gradle/caches/8.11.1/transforms/c8683ffee489922634ab519cbf9c6d09/transformed/coordinatorlayout-1.1.0/res
+com.example.fifa_ufms.app-activity-1.10.1-21 /home/soraya/.gradle/caches/8.11.1/transforms/c9c3e7ffb9d902bc840a3d8c3fcf130d/transformed/activity-1.10.1/res
+com.example.fifa_ufms.app-appcompat-resources-1.7.0-22 /home/soraya/.gradle/caches/8.11.1/transforms/cdb59a15af7755793a9aba4afb5d18b9/transformed/appcompat-resources-1.7.0/res
+com.example.fifa_ufms.app-transition-1.5.0-23 /home/soraya/.gradle/caches/8.11.1/transforms/cdc4e0260ae6acff4804c950d2c8d90f/transformed/transition-1.5.0/res
+com.example.fifa_ufms.app-viewpager2-1.0.0-24 /home/soraya/.gradle/caches/8.11.1/transforms/d4e609df9f8e12c78de7a8762dc4d7e2/transformed/viewpager2-1.0.0/res
+com.example.fifa_ufms.app-fragment-1.5.4-25 /home/soraya/.gradle/caches/8.11.1/transforms/d5540f898409175b17c88b31f9777e98/transformed/fragment-1.5.4/res
+com.example.fifa_ufms.app-cardview-1.0.0-26 /home/soraya/.gradle/caches/8.11.1/transforms/e0127232c82497cf78307d761d8577d1/transformed/cardview-1.0.0/res
+com.example.fifa_ufms.app-room-runtime-release-27 /home/soraya/.gradle/caches/8.11.1/transforms/e79f9f74dab4bbe7f163aec73f106306/transformed/room-runtime-release/res
+com.example.fifa_ufms.app-lifecycle-process-2.6.2-28 /home/soraya/.gradle/caches/8.11.1/transforms/e97df847a099d641d8ecafa819296812/transformed/lifecycle-process-2.6.2/res
+com.example.fifa_ufms.app-drawerlayout-1.1.1-29 /home/soraya/.gradle/caches/8.11.1/transforms/f053198baa000a28d151a315d01737c5/transformed/drawerlayout-1.1.1/res
+com.example.fifa_ufms.app-lifecycle-viewmodel-2.6.2-30 /home/soraya/.gradle/caches/8.11.1/transforms/fabd8e59800015c265080d8ceac4489a/transformed/lifecycle-viewmodel-2.6.2/res
+com.example.fifa_ufms.app-pngs-31 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/generated/res/pngs/debug
+com.example.fifa_ufms.app-resValues-32 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/generated/res/resValues/debug
+com.example.fifa_ufms.app-packageDebugResources-33 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.fifa_ufms.app-packageDebugResources-34 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.fifa_ufms.app-debug-35 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.fifa_ufms.app-debug-36 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/debug/res
+com.example.fifa_ufms.app-main-37 /home/soraya/repositories/prog-mob2/prog_mob2/fifa_ufms/app/src/main/res
