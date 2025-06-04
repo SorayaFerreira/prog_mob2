@@ -32,6 +32,7 @@ public class ClassificacaoAdapter extends RecyclerView.Adapter<ClassificacaoAdap
     @Override
     public void onBindViewHolder(@NonNull ClassificacaoViewHolder holder, int position) {
         ClassificacaoItem item = lista.get(position);
+        holder.tvPontos.setText(String.valueOf(item.getPontos()));
         holder.tvEquipe.setText(item.getNomeTime());
         holder.tvJogos.setText(String.valueOf(item.getJogos()));
         holder.tvVitorias.setText(String.valueOf(item.getVitorias()));
@@ -45,10 +46,11 @@ public class ClassificacaoAdapter extends RecyclerView.Adapter<ClassificacaoAdap
     }
 
     static class ClassificacaoViewHolder extends RecyclerView.ViewHolder {
-        TextView tvEquipe, tvJogos, tvVitorias, tvEmpates, tvDerrotas;
+        TextView tvPontos, tvEquipe, tvJogos, tvVitorias, tvEmpates, tvDerrotas;
 
         public ClassificacaoViewHolder(@NonNull View itemView) {
             super(itemView);
+            tvPontos = itemView.findViewById(R.id.tvItemPontos);
             tvEquipe = itemView.findViewById(R.id.tvItemEquipe);
             tvJogos = itemView.findViewById(R.id.tvItemJogos);
             tvVitorias = itemView.findViewById(R.id.tvItemVitorias);

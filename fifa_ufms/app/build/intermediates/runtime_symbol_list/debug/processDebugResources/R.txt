@@ -3676,11 +3676,13 @@ int id tvCabDerrotas 0x7f09021f
 int id tvCabEmpates 0x7f090220
 int id tvCabEquipe 0x7f090221
 int id tvCabJogos 0x7f090222
+int id tvCabJogos2 0x7f090249
 int id tvCabVitorias 0x7f090223
 int id tvItemDerrotas 0x7f090224
 int id tvItemEmpates 0x7f090225
 int id tvItemEquipe 0x7f090226
 int id tvItemJogos 0x7f090227
+int id tvItemPontos 0x7f09024a
 int id tvItemVitorias 0x7f090228
 int id tvNomeJogador 0x7f090229
 int id tvTituloClassificacao 0x7f09022a

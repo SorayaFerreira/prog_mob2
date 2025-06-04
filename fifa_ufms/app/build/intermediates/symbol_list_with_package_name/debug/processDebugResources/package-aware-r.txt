@@ -3677,11 +3677,13 @@ id tvCabDerrotas
 id tvCabEmpates
 id tvCabEquipe
 id tvCabJogos
+id tvCabJogos2
 id tvCabVitorias
 id tvItemDerrotas
 id tvItemEmpates
 id tvItemEquipe
 id tvItemJogos
+id tvItemPontos
 id tvItemVitorias
 id tvNomeJogador
 id tvTituloClassificacao

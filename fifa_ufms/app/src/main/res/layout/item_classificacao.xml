@@ -18,6 +18,14 @@
 
     <!-- Nº de jogos (peso 1) -->
     <TextView
+        android:id="@+id/tvItemPontos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0" />
+
+    <TextView
         android:id="@+id/tvItemJogos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -26,6 +34,7 @@
         android:text="0"/>
 
     <!-- Vitórias -->
+
     <TextView
         android:id="@+id/tvItemVitorias"
         android:layout_width="0dp"
