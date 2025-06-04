@@ -2,6 +2,7 @@ package com.example.fifa_ufms.view;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,8 +17,10 @@ import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.database.JogadorDao;
 import com.example.fifa_ufms.database.PartidaDao;
 import com.example.fifa_ufms.database.TimeDao;
+import com.example.fifa_ufms.database.ParticipacaoDao;
 import com.example.fifa_ufms.entities.Jogador;
 import com.example.fifa_ufms.entities.Partida;
+import com.example.fifa_ufms.entities.Participacao;
 import com.example.fifa_ufms.entities.Time;
 
 import java.util.ArrayList;
@@ -30,7 +33,9 @@ public class PartidasFormActivity extends AppCompatActivity {
     private Button buttonSalvar;
 
     private PartidaDao partidaDao;
-    private TimeDao timeDao; // ou JogadorDao se preferir usar jogadores diretamente
+    private ParticipacaoDao participacoesDao;
+    private JogadorDao jogadorDao;
+    private TimeDao timeDao;
 
     private List<Time> listaTimes;
     private int partidaId = -1;
@@ -50,9 +55,12 @@ public class PartidasFormActivity extends AppCompatActivity {
         CampeonatoDatabase db = Room.databaseBuilder(getApplicationContext(),
                 CampeonatoDatabase.class, "campeonato").allowMainThreadQueries().build();
 
-        partidaDao = db.partidaDao();
-        timeDao = db.timeDao(); // se usar times
+        partidaDao       = db.partidaDao();
+        participacoesDao = db.participacaoDao();
+        jogadorDao       = db.jogadorDao();
+        timeDao          = db.timeDao();
 
+        Log.d("DBG", "participacoesDao == " + (participacoesDao == null ? "NULL" : "OK"));
         carregarTimesNoSpinner();
 
         buttonSalvar.setOnClickListener(v -> salvarPartida());
@@ -82,7 +90,30 @@ public class PartidasFormActivity extends AppCompatActivity {
         partida.time1 = idTime1;
         partida.time2 = idTime2;
 
-        partidaDao.inserirPartida(partida);
+        int idNovaPartida = (int) partidaDao.inserirPartida(partida);
+        List<Participacao> participacoes = new ArrayList<>();
+        //criar a participacao de todos os jogadores de cada time
+        List<Jogador> jogadoresTime1 = jogadorDao.listarJogadoresPorTime(idTime1);
+        List<Jogador> jogadoresTime2 = jogadorDao.listarJogadoresPorTime(idTime2);
+
+        for (Jogador jogador : jogadoresTime1) {
+            Participacao p = new Participacao();
+            p.idJogador = jogador.getIdJogador();
+            p.idPartida = idNovaPartida;
+            p.idTime = jogador.getIdTime();
+            //p.titular = true;
+            //p.minutosJogados = 90;
+            participacoes.add(p);
+        }
+        for (Jogador jogador : jogadoresTime2) {
+            Participacao p = new Participacao();
+            p.idJogador = jogador.getIdJogador();
+            p.idPartida = idNovaPartida;
+            p.idTime = jogador.getIdTime();
+            participacoes.add(p);
+        }
+        //inserir lista de participacoes na tabela
+        participacoesDao.inserirParticipacoes(participacoes);
 
         Toast.makeText(this, "Partida salva!", Toast.LENGTH_SHORT).show();
         finish();
