@@ -16,12 +16,12 @@
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\font_poppins_bold.ttf.flat",
-        "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\font\\poppins_bold.ttf"
-    },
-    {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\drawable_logo_white.png.flat",
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\drawable\\logo_white.png"
+    },
+    {
+        "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\font_poppins_bold.ttf.flat",
+        "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\font\\poppins_bold.ttf"
     },
     {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\layout_activity_main.xml.flat",
@@ -74,6 +74,10 @@
     {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.fifa_ufms.app-debug-4:/layout_item_partida.xml.flat",
+        "source": "com.example.fifa_ufms.app-main-6:/layout/item_partida.xml"
     },
     {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\font_poppins_thin.ttf.flat",
@@ -152,12 +156,12 @@
         "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\layout\\activity_jogadores.xml"
     },
     {
-        "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\layout_activity_times.xml.flat",
-        "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\layout\\activity_times.xml"
+        "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\layout_activity_jogadores_partida.xml.flat",
+        "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\layout\\activity_jogadores_partida.xml"
     },
     {
-        "merged": "com.example.fifa_ufms.app-debug-4:/layout_activity_time_form.xml.flat",
-        "source": "com.example.fifa_ufms.app-main-6:/layout/activity_time_form.xml"
+        "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\layout_activity_times.xml.flat",
+        "source": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-main-6:\\layout\\activity_times.xml"
     },
     {
         "merged": "C:\\Users\\joaou\\.gradle\\daemon\\8.11.1\\com.example.fifa_ufms.app-debug-4:\\font_poppins_medium.ttf.flat",

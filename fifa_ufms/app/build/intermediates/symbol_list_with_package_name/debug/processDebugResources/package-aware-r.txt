@@ -3236,6 +3236,7 @@ id buttonSave
 id button_add_jogador
 id button_add_partida
 id button_add_time
+id button_back_jogadores
 id button_delete
 id button_delete_jogador
 id button_edit_jogador
@@ -3409,6 +3410,7 @@ id line3
 id linear
 id listMode
 id list_item
+id list_view_jogadores
 id list_view_partidas
 id m3_side_sheet
 id main
@@ -3643,6 +3645,7 @@ id text_nickname
 id text_nome_jogador
 id text_team_color
 id text_team_name
+id text_title_jogadores
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3824,6 +3827,7 @@ layout abc_tooltip
 layout activity_classificacao
 layout activity_jogador_form
 layout activity_jogadores
+layout activity_jogadores_partida
 layout activity_main
 layout activity_partida_form
 layout activity_partidas

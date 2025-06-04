@@ -40,6 +40,8 @@
         <activity android:name=".view.PartidasFormActivity" />
         <!-- Tela de Classificação -->
         <activity android:name=".view.ClassificacaoActivity" />
+        <!-- Tela de Jogadores da Partida -->
+        <activity android:name=".view.JogadoresPartidaActivity" />
 
 
     </application>

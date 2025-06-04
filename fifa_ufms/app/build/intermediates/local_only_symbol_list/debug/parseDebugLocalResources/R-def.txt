@@ -30,6 +30,7 @@ id buttonSave
 id button_add_jogador
 id button_add_partida
 id button_add_time
+id button_back_jogadores
 id button_delete
 id button_delete_jogador
 id button_edit_jogador
@@ -60,6 +61,7 @@ id inputNomeTime
 id labelTeamColor
 id labelTeamName
 id layoutCabecalho
+id list_view_jogadores
 id list_view_partidas
 id main
 id recyclerViewJogadoresNoTime
@@ -83,6 +85,7 @@ id text_nickname
 id text_nome_jogador
 id text_team_color
 id text_team_name
+id text_title_jogadores
 id titleText
 id title_text
 id tvCabDerrotas
@@ -100,6 +103,7 @@ id tvTituloClassificacao
 layout activity_classificacao
 layout activity_jogador_form
 layout activity_jogadores
+layout activity_jogadores_partida
 layout activity_main
 layout activity_partida_form
 layout activity_partidas

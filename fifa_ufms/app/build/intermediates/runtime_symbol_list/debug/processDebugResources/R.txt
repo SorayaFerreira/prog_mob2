@@ -3235,6 +3235,7 @@ int id buttonSave 0x7f090069
 int id button_add_jogador 0x7f09006a
 int id button_add_partida 0x7f09006b
 int id button_add_time 0x7f09006c
+int id button_back_jogadores 0x7f090246
 int id button_delete 0x7f09006d
 int id button_delete_jogador 0x7f09006e
 int id button_edit_jogador 0x7f09006f
@@ -3408,6 +3409,7 @@ int id line3 0x7f090116
 int id linear 0x7f090117
 int id listMode 0x7f090118
 int id list_item 0x7f090119
+int id list_view_jogadores 0x7f090247
 int id list_view_partidas 0x7f09011a
 int id m3_side_sheet 0x7f09011b
 int id main 0x7f09011c
@@ -3642,6 +3644,7 @@ int id text_nickname 0x7f090200
 int id text_nome_jogador 0x7f090201
 int id text_team_color 0x7f090202
 int id text_team_name 0x7f090203
+int id text_title_jogadores 0x7f090248
 int id textinput_counter 0x7f090204
 int id textinput_error 0x7f090205
 int id textinput_helper_text 0x7f090206
@@ -3823,6 +3826,7 @@ int layout abc_tooltip 0x7f0c001b
 int layout activity_classificacao 0x7f0c001c
 int layout activity_jogador_form 0x7f0c001d
 int layout activity_jogadores 0x7f0c001e
+int layout activity_jogadores_partida 0x7f0c0078
 int layout activity_main 0x7f0c001f
 int layout activity_partida_form 0x7f0c0020
 int layout activity_partidas 0x7f0c0021
