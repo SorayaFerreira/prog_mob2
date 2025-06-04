@@ -61,7 +61,7 @@ public class JogadoresNoTimeAdapter extends RecyclerView.Adapter<JogadoresNoTime
 
         public void bind(Jogador jogador) {
             // o nome do jogador é o texto a ser exibido
-            tvNome.setText(jogador.getNome());
+            tvNome.setText(jogador.getNickname());
         }
     }
 }

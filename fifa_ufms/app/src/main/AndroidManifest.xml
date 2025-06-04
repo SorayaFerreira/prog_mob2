@@ -38,6 +38,9 @@
         <activity android:name=".view.PartidasActivity" />
 
         <activity android:name=".view.PartidasFormActivity" />
+        <!-- Tela de Classificação -->
+        <activity android:name=".view.ClassificacaoActivity" />
+
 
     </application>
 

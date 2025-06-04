@@ -42,10 +42,10 @@ public class Jogador {
 
     @Override
     public String toString() {
-        if (nome == null) {
-            return nickname;
+        if (nickname == null) {
+            return nome;
         }
-        return nome;  // to string retorna apelido para spinner
+        return nickname;  // to string retorna apelido para spinner
     }
     public int getIdJogador() {
         return idJogador;
