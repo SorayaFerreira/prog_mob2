@@ -48,6 +48,9 @@ public class PartidasActivity extends AppCompatActivity {
             Intent intent = new Intent(PartidasActivity.this, PartidasFormActivity.class);
             startActivity(intent);
         });
+
+        ImageButton backButton = findViewById(R.id.back_button);
+        backButton.setOnClickListener(v -> finish());
     }
 
     @Override

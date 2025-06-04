@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.13.0] C:\Users\joaou\.gradle\caches\8.11.1\transforms\40611b1c4ff9b27f1f287e1e90b17292\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:6:5-43:19
+17-->C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:6:5-42:19
 18        android:allowBackup="true"
 18-->C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:7:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"

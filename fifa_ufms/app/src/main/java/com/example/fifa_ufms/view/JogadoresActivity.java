@@ -24,6 +24,8 @@ public class JogadoresActivity extends AppCompatActivity {
     private JogadoresAdapter adapter;
     private List<Jogador> jogadores;
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

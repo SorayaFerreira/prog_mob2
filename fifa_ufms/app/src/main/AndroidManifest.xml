@@ -39,7 +39,6 @@
 
         <activity android:name=".view.PartidasFormActivity" />
 
-
     </application>
 
 </manifest>

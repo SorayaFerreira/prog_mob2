@@ -3236,7 +3236,10 @@ id buttonSave
 id button_add_jogador
 id button_add_partida
 id button_add_time
+id button_delete
+id button_delete_jogador
 id button_edit_jogador
+id button_edit_partida
 id button_salvar_time
 id cache_measures
 id callMeasure
@@ -3930,6 +3933,7 @@ string add_time_button
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string atualizar_partida
 string back_button_desc
 string bot_o_para_adicionar_partida
 string bottom_sheet_behavior
@@ -3959,6 +3963,7 @@ string clear_text_end_icon_content_description
 string data_01_06_2025
 string data_da_partida_dd_mm_yyyy
 string edit_jogador_desc
+string editar_partida
 string em_construcao
 string empty_list_jogadores
 string error_a11y_label

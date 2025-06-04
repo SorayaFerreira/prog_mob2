@@ -57,11 +57,14 @@
     <string name="nova_partida">Nova Partida</string>
     <string name="bot_o_para_adicionar_partida">Botão para adicionar partida</string>
     <string name="cadastrar_partida">Cadastrar Partida</string>
-    <string name="data_da_partida_dd_mm_yyyy">Data da Partida (dd/mm/yyyy)</string>
+    <string name="data_da_partida_dd_mm_yyyy">(dd/mm/yyyy)</string>
     <string name="placar_time_1">Placar Time 1</string>
     <string name="placar_time_2">Placar Time 2</string>
     <string name="salvar_partida">Salvar Partida</string>
     <string name="placar_2_x_1">Placar: 2 x 1</string>
     <string name="data_01_06_2025">Data: 01/06/2025</string>
+    <string name="editar_partida">Editar Partida</string>
+    <string name="atualizar_partida">Atualizar</string>
+
 
 </resources>

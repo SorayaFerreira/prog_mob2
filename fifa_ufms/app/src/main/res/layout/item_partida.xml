@@ -4,43 +4,68 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/white"
-    android:padding="16dp">
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="20dp"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:background="@drawable/bg_item_jogador"
+    android:gravity="center_vertical">
 
-    <!-- Data da Partida -->
-    <TextView
-        android:id="@+id/textData"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
-        android:text="@string/data_01_06_2025"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
         android:textColor="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textSize="17sp"
+        android:textStyle="bold">
 
-    <!-- Nome dos Times -->
+        <TextView
+            android:id="@+id/textData"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="Data: 01/06/2025"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_edit_partida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Editar partida"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Deletar partida"
+            android:src="@android:drawable/ic_delete" />
+    </LinearLayout>
+
+
     <TextView
         android:id="@+id/textTimes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Time A vs Time B"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="12sp"
         android:layout_marginTop="4dp" />
 
-    <!-- Placar -->
+
     <TextView
         android:id="@+id/textPlacar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/placar_2_x_1"
         android:textColor="@color/black"
-        android:textSize="15sp"
-        android:layout_marginTop="2dp" />
+        android:textSize="12sp"
+        android:layout_marginTop="4dp" />
 
-    <!-- Separador opcional -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="12dp" />
 </LinearLayout>
