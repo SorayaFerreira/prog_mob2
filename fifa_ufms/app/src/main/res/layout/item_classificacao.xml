@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="4dp">
+
+    <!-- Nome do time (peso 3) -->
+    <TextView
+        android:id="@+id/tvItemEquipe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Time X"
+        android:textSize="16sp"/>
+
+    <!-- Nº de jogos (peso 1) -->
+    <TextView
+        android:id="@+id/tvItemJogos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"/>
+
+    <!-- Vitórias -->
+    <TextView
+        android:id="@+id/tvItemVitorias"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"/>
+
+    <!-- Empates -->
+    <TextView
+        android:id="@+id/tvItemEmpates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"/>
+
+    <!-- Derrotas -->
+    <TextView
+        android:id="@+id/tvItemDerrotas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"/>
+</LinearLayout>

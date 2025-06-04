@@ -15,6 +15,8 @@
     <string name="back_button_desc">Voltar</string>
     <string name="bot_o_para_adicionar_partida">Botão para adicionar partida</string>
     <string name="cadastrar_partida">Cadastrar Partida</string>
+    <string name="card_classificacao_sub">Veja a classificação atual</string>
+    <string name="card_classificacao_title">Classificação</string>
     <string name="card_jogadores_sub">Encontre os melhores jogadores</string>
     <string name="card_jogadores_title">Jogadores</string>
     <string name="card_partidas_sub">Acompanhe as partidas recentes</string>

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #Wed Jun 04 05:56:14 AMT 2025
+=======
+#Wed Jun 04 05:47:31 AMT 2025
+>>>>>>> Stashed changes
 base.0=C\:\\Projetos\\Estudo\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Projetos\\Estudo\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Projetos\\Estudo\\prog_mob2\\fifa_ufms\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

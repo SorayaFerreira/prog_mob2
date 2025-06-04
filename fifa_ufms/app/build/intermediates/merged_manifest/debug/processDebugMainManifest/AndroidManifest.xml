@@ -53,6 +53,9 @@
         <activity android:name="com.example.fifa_ufms.view.PartidasActivity" />
         <activity android:name="com.example.fifa_ufms.view.PartidasFormActivity" />
 
+        <!-- Tela de Classificação -->
+        <activity android:name="com.example.fifa_ufms.view.ClassificacaoActivity" />
+
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"

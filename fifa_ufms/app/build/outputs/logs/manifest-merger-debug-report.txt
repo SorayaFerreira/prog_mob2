@@ -1,9 +1,16 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< Updated upstream
 ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-44:12
 INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-44:12
+=======
+ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:1-48:12
+>>>>>>> Stashed changes
 MERGED from [androidx.databinding:viewbinding:8.7.2] C:\Users\joaou\.gradle\caches\8.11.1\transforms\b835774f826b4bbc20116cf185566dcb\transformed\viewbinding-8.7.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\joaou\.gradle\caches\8.11.1\transforms\4c784791716b1b38cb8ce6d0d2f71a9f\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\joaou\.gradle\caches\8.11.1\transforms\3b471ffbdb715707ce0d099e7a4e1473\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
@@ -62,8 +69,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\joaou\.
 	xmlns:android
 		ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:2:11-69
 application
+<<<<<<< Updated upstream
 ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:6:5-42:19
 INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:6:5-42:19
+=======
+ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:6:5-46:19
+INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:6:5-46:19
+>>>>>>> Stashed changes
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\joaou\.gradle\caches\8.11.1\transforms\4c784791716b1b38cb8ce6d0d2f71a9f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\joaou\.gradle\caches\8.11.1\transforms\4c784791716b1b38cb8ce6d0d2f71a9f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\joaou\.gradle\caches\8.11.1\transforms\3b471ffbdb715707ce0d099e7a4e1473\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -144,6 +156,10 @@ activity#com.example.fifa_ufms.view.PartidasFormActivity
 ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:40:9-63
 	android:name
 		ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:40:19-60
+activity#com.example.fifa_ufms.view.ClassificacaoActivity
+ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:43:9-64
+	android:name
+		ADDED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml:43:19-61
 uses-sdk
 INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Projetos\Estudo\prog_mob2\fifa_ufms\app\src\main\AndroidManifest.xml
