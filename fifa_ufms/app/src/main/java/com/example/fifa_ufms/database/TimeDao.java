@@ -23,6 +23,6 @@ public interface TimeDao {
     @Query("SELECT * FROM Times")
     List<Time> listarTodosTimes();
 
-    @Query("SELECT * FROM Times WHERE idTime = :id LIMIT 1")
+    @Query("SELECT * FROM Times WHERE idTime = :id")
     Time buscarPorId(int id);
 }

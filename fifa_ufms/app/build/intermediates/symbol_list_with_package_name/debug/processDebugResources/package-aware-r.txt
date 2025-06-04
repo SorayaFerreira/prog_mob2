@@ -3388,8 +3388,8 @@ id immediateStop
 id included
 id indeterminate
 id info
-id input_cor_uniforme
-id input_nome_time
+id inputCorUniforme
+id inputNomeTime
 id invisible
 id inward
 id italic

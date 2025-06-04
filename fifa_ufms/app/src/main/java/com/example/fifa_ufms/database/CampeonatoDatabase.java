@@ -28,7 +28,6 @@ public abstract class CampeonatoDatabase extends RoomDatabase {
                             CampeonatoDatabase.class,
                             "campeonato"
                     )        .allowMainThreadQueries()
-                            .fallbackToDestructiveMigration()   // da um bump no banco de dados assim que a versao eh trocada
                             .build();
                 }
             }

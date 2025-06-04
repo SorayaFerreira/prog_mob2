@@ -55,8 +55,8 @@ id editTextPlacarTime1
 id editTextPlacarTime2
 id edittextNomeJogador
 id image_jogador_icon
-id input_cor_uniforme
-id input_nome_time
+id inputCorUniforme
+id inputNomeTime
 id labelTeamColor
 id labelTeamName
 id layoutCabecalho
