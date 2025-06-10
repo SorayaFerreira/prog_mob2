@@ -4,7 +4,6 @@ package com.example.fifa_ufms.view;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Spinner;
@@ -38,10 +37,11 @@ public class TimeFormActivity extends AppCompatActivity {
     private ArrayAdapter<Jogador> spinnerAdapter;
     //private Jogador mJogadorSelecionado; // Jogador selecionado no Spinner
     //info de time
-    public static final String EXTRA_ID_TIME = "com.example.fifa_ufms.EXTRA_ID_TIME";
+    public static final String EXTRA_ID_TIME       = "extra_id_time";
     public static final String EXTRA_NOME_TIME     = "extra_nome_time";
     public static final String EXTRA_COR_UNIFORME  = "extra_cor_uniforme";
 
+    private static final int REQUEST_ADD_JOGADOR = 1001;
 
     private ActivityTimeFormBinding binding;
     private List<Jogador> listaJogadoresAtuais;         // lista local de jogadores que serão anexados ao time
@@ -52,10 +52,12 @@ public class TimeFormActivity extends AppCompatActivity {
     //placeholder
     private final Jogador placeholder = new Jogador("— Adicione jogadores —");
 
+    // Se edição, id do time que chegou pelo Intent
+    private int timeId = -1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("TimeFormActivity", "Entrou em onCreate");
         binding = ActivityTimeFormBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -177,35 +179,24 @@ public class TimeFormActivity extends AppCompatActivity {
         binding.backButton.setOnClickListener(v -> finish());
 
         //9. Verifica se o Intent trouxe dados para edição
-        //Intent intent = getIntent();
-        // Se edição, id do time que chegou pelo Intent
-        long timeIdLong = getIntent().getLongExtra(EXTRA_ID_TIME, -1L);
-        int timeId = (int) timeIdLong;
-        //String nomeTime = intent.getStringExtra(EXTRA_NOME_TIME," a");
-        //String corUniforme = intent.getStringExtra(EXTRA_COR_UNIFORME);
-        Log.d("TimeFormActivity", "ID recebido via Intent: " + timeId);
-        Toast.makeText(this, "timeId = " + timeId, Toast.LENGTH_SHORT).show();
-        if (timeId != -1) {
+        Intent intent = getIntent();
+        timeId = intent.getIntExtra(EXTRA_ID_TIME, -1);
+        String nomeTime = intent.getStringExtra(EXTRA_NOME_TIME);
+        String corUniforme = intent.getStringExtra(EXTRA_COR_UNIFORME);
+
+        if (timeId != -1 && nomeTime != null && corUniforme != null) {
             // Modo edição: preenche campos e carrega jogadores do DB
-            Time timeParaEditar = timeDao.buscarPorId(timeId);
-            if (timeParaEditar != null) {
-                Toast.makeText(this,
-                        "Carregando edição: " + timeParaEditar.getNomeTime(),
-                        Toast.LENGTH_SHORT).show();
-                // 3) ajusta título e botão para edição
-                binding.titleText.setText("Editar Time");
-                binding.buttonSalvarTime.setText("Salvar");
+            binding.titleText.setText("Editar Time");
+            binding.buttonSalvarTime.setText("Salvar");
 
-                // 4) preenche os campos de nome e cor a partir do objeto do banco
-                binding.inputNomeTime.setText(timeParaEditar.getNomeTime());
-                binding.inputCorUniforme.setText(timeParaEditar.getCorUniforme());
+            binding.inputNomeTime.setText(nomeTime);
+            binding.inputCorUniforme.setText(corUniforme);
 
-                // 5) carrega a lista de jogadores que já estão vinculados a esse time
-                List<Jogador> deDB = jogadorDao.listarJogadoresPorTime(timeId);
-                listaJogadoresAtuais.clear();
-                listaJogadoresAtuais.addAll(deDB);
-                timeAdapter.notifyDataSetChanged();
-            }
+            // Carrega jogadores já vinculados ao time (essa parte fica na main thread pois é apenas leitura simples)
+            List<Jogador> deDB = jogadorDao.listarJogadoresPorTime(timeId);
+            listaJogadoresAtuais.clear();
+            listaJogadoresAtuais.addAll(deDB);
+            timeAdapter.notifyDataSetChanged();
 
             binding.buttonSalvarTime.setOnClickListener(v -> {
                 String novoNome = binding.inputNomeTime.getText().toString().trim();
@@ -226,16 +217,16 @@ public class TimeFormActivity extends AppCompatActivity {
 
                 // Executa TODO em background
                 new Thread(() -> {
-                    // 1. Atualiza Time
+                    // 1) Atualiza Time
                     timeDao.atualizarTime(timeAtualizado);
 
-                    // 2. Atualiza referência de timeId para cada jogador no banco
+                    // 2) Atualiza referência de timeId para cada jogador no banco
                     for (Jogador jogador : listaJogadoresAtuais) {
                         jogador.setIdTime(timeId);
                         jogadorDao.setarTimeJogador(timeId, jogador.getIdJogador());
                     }
 
-                    // 3. Volta para a UI para mostrar Toast e finalizar Activity
+                    // 3) Volta para a UI para mostrar Toast e finalizar Activity
                     runOnUiThread(() -> {
                         Toast.makeText(TimeFormActivity.this, "Time atualizado com sucesso", Toast.LENGTH_SHORT).show();
                         finish();

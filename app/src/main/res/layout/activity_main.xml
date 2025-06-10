@@ -16,34 +16,34 @@
         <!-- Header -->
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="320dp"
+            android:layout_height="350dp"
             android:background="@drawable/background_home"
             android:gravity="center">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center"
                 tools:ignore="UseCompoundDrawables,UselessParent">
 
                 <ImageView
                     android:layout_width="230dp"
                     android:layout_height="230dp"
-                    android:layout_gravity="center"
+                    android:src="@drawable/logo_white"
                     android:contentDescription="@string/logo_desc"
-                    android:src="@drawable/logo_white" />
+                    android:layout_gravity="center"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="15dp"
-                    android:padding="10dp"
                     android:text="@string/header_slogan"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:layout_marginBottom="15dp"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
             </LinearLayout>
         </FrameLayout>
 
@@ -51,9 +51,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="24dp"
+            android:gravity="center">
 
             <!-- Card: Times -->
             <LinearLayout
@@ -61,11 +61,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/bg_card"
                 android:clickable="true"
                 android:focusable="true"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16dp"
+                android:background="@drawable/bg_card">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -88,12 +88,12 @@
                 android:id="@+id/card_jogadores"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
                 android:layout_marginBottom="16dp"
-                android:background="@drawable/bg_card"
                 android:clickable="true"
                 android:focusable="true"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:background="@drawable/bg_card">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -101,14 +101,14 @@
                     android:text="@string/card_jogadores_title"
                     android:textColor="@color/primary"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/card_jogadores_sub"
                     android:textColor="@color/text"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"/>
             </LinearLayout>
 
             <!-- Card: Partidas -->
@@ -116,12 +116,11 @@
                 android:id="@+id/card_partidas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/bg_card"
+                android:orientation="vertical"
+                android:padding="16dp"
                 android:clickable="true"
                 android:focusable="true"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:background="@drawable/bg_card">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -129,43 +128,15 @@
                     android:text="@string/card_partidas_title"
                     android:textColor="@color/primary"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/card_partidas_sub"
                     android:textColor="@color/text"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"/>
             </LinearLayout>
-
-            <!-- Card: Classificação -->
-            <LinearLayout
-                android:id="@+id/card_classificacao"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_card"
-                android:clickable="true"
-                android:focusable="true"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/card_classificacao_title"
-                    android:textColor="@color/primary"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/card_classificacao_sub"
-                    android:textColor="@color/text"
-                    android:textSize="16sp" />
-            </LinearLayout>
-
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

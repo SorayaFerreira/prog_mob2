@@ -17,9 +17,6 @@
     <string name="card_partidas_title">Partidas</string>
     <string name="card_partidas_sub">Acompanhe as partidas recentes</string>
 
-    <string name="card_classificacao_title">Classificação</string>
-    <string name="card_classificacao_sub">Veja a classificação atual</string>
-
     <!-- Tela: Times -->
     <string name="title_times">Times</string>
     <string name="back_button_desc">Voltar</string>

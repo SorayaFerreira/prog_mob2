@@ -2,12 +2,9 @@ package com.example.fifa_ufms.view;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
@@ -24,8 +21,12 @@ import java.util.List;
 public class PartidasActivity extends AppCompatActivity {
 
     private ListView listViewPartidas;
+    private Button botaoAdd;
+    private PartidasAdapter partidasAdapter;
+
     private PartidaDao partidaDao;
     private TimeDao timeDao;
+    private CampeonatoDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,13 +34,10 @@ public class PartidasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_partidas);
 
         listViewPartidas = findViewById(R.id.list_view_partidas);
-        Button botaoAdd = findViewById(R.id.button_add_partida);
+        botaoAdd = findViewById(R.id.button_add_partida);
 
-        CampeonatoDatabase db = Room.databaseBuilder(
-                        getApplicationContext(),
-                        CampeonatoDatabase.class,
-                        "campeonato"
-                )
+        db = Room.databaseBuilder(getApplicationContext(),
+                        CampeonatoDatabase.class, "campeonato")
                 .allowMainThreadQueries()
                 .build();
 
@@ -59,31 +57,9 @@ public class PartidasActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        // 1. Buscar todas as partidas
         List<Partida> partidas = partidaDao.listarTodasPartidas();
-
-        // 2. Configurar o adapter para exibir cada partida
-        PartidasAdapter partidasAdapter = new PartidasAdapter(this, partidas, timeDao);
+        partidasAdapter = new PartidasAdapter(this, partidas, timeDao);
         listViewPartidas.setAdapter(partidasAdapter);
-
-        // 3. Registrar o clique em cada item da lista de partidas
-        listViewPartidas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Partida partidaSelecionada = (Partida) partidasAdapter.getItem(position);
-                int idPartida = partidaSelecionada.getIdPartida();
-
-                // DEBUG: exibe um Toast para confirmar o clique
-                Toast.makeText(PartidasActivity.this,
-                        "Clicou em partida #"+ idPartida,
-                        Toast.LENGTH_SHORT
-                ).show();
-
-                Intent intent = new Intent(PartidasActivity.this, JogadoresPartidaActivity.class);
-                intent.putExtra(JogadoresPartidaActivity.EXTRA_ID_PARTIDA, idPartida);
-                startActivity(intent);
-            }
-
-        });
     }
 }
+

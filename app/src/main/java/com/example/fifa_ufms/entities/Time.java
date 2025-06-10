@@ -3,6 +3,7 @@ package com.example.fifa_ufms.entities;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import androidx.room.ForeignKey;
 
 @Entity(tableName = "Times")
 public class Time {
@@ -18,7 +19,7 @@ public class Time {
         this.corUniforme = corUniforme;
     }
 
-    public long getIdTime() {
+    public int getIdTime() {
         return idTime;
     }
 

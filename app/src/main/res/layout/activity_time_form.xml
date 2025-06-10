@@ -52,7 +52,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
-            android:id="@+id/inputNomeTime"
+            android:id="@+id/input_nome_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -68,7 +68,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
-            android:id="@+id/inputCorUniforme"
+            android:id="@+id/input_cor_uniforme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
