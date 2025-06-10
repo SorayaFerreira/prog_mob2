@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fifa_ufms">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FifaUFMS"
+        tools:targetApi="31">
+
+        <!-- Tela principal -->
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tela de Times -->
+        <activity android:name=".view.TimesActivity" />
+        <activity android:name=".view.TimeFormActivity" />
+
+        <!-- Tela de Jogadores (lista) -->
+        <activity android:name=".view.JogadoresActivity" />
+
+        <!-- Tela de Formulário de Jogador -->
+        <activity android:name=".view.JogadorFormActivity" />
+
+        <!-- Tela de Partidas -->
+        <activity android:name=".view.PartidasActivity" />
+
+        <activity android:name=".view.PartidasFormActivity" />
+        <!-- Tela de Classificação -->
+        <activity android:name=".view.ClassificacaoActivity" />
+        <!-- Tela de Jogadores da Partida -->
+        <activity android:name=".view.JogadoresPartidaActivity" />
+
+
+    </application>
+
+</manifest>
