@@ -3,8 +3,10 @@ package com.example.fifa_ufms.view;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,6 +16,7 @@ import com.example.fifa_ufms.R;
 import com.example.fifa_ufms.adapter.TimesAdapter;
 import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.entities.Time;
+import com.example.fifa_ufms.view.TimeFormActivity;
 
 
 import java.util.ArrayList;
@@ -46,18 +49,25 @@ public class TimesActivity extends AppCompatActivity {
                 new TimesAdapter.OnTimeClickListener() {
                     @Override
                     public void onTimeClick(Time time) {
-                        // navega para TimeFormActivity em modo edição
+                        long id = time.getIdTime(); // id long
+                        // 1. Debub. Veja se este método está mesmo sendo chamado e qual ID o Time tem
+                        Toast.makeText(
+                                TimesActivity.this,
+                                "Clique em editar: timeId = " + time.getIdTime(),
+                                Toast.LENGTH_SHORT
+                        ).show();
+                        Log.d("TimesActivity", "onTimeClick: timeId = " + time.getIdTime());
+                        // navega para TimeFormActivity em modo edição, passa o id atraves do intent
                         Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);
-                        intent.putExtra(TimeFormActivity.EXTRA_ID_TIME, time.getIdTime());
-                        intent.putExtra(TimeFormActivity.EXTRA_NOME_TIME, time.getNomeTime());
-                        intent.putExtra(TimeFormActivity.EXTRA_COR_UNIFORME, time.getCorUniforme());
+                        intent.putExtra(TimeFormActivity.EXTRA_ID_TIME, id);
+
                         startActivity(intent);
                     }
                 }
         );
         recyclerView.setAdapter(adapter);
 
-        // 4) botão “Novo Time”
+        // 4) navega em modo cadastro
         Button btnNovoTime = findViewById(R.id.button_add_time);
         btnNovoTime.setOnClickListener(v -> {
             Intent intent = new Intent(TimesActivity.this, TimeFormActivity.class);

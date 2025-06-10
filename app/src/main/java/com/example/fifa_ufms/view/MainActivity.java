@@ -77,5 +77,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, PartidasActivity.class);
             startActivity(intent);
         });
+        // Card para Classificação
+        LinearLayout cardClassificacao = findViewById(R.id.card_classificacao);
+        cardClassificacao.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ClassificacaoActivity.class);
+            startActivity(intent);
+        });
     }
 }

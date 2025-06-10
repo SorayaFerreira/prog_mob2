@@ -15,7 +15,7 @@ import java.util.List;
 public interface PartidaDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void inserirPartida(Partida... partida);
+    long inserirPartida(Partida partida);
 
     @Update
     void atualizarPartida(Partida... partida);
