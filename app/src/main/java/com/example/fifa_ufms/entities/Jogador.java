@@ -24,8 +24,10 @@ public class Jogador {
     public int numeroAmarelos;
     public int numeroVermelhos;
     public int idTime;
+    public String imagemUri;
 
-    public Jogador(int numeroVermelhos, int numeroAmarelos, int numeroGols, String dataNascimento, String email, String nickname, String nome, int idTime) {
+
+    public Jogador(int numeroVermelhos, int numeroAmarelos, int numeroGols, String dataNascimento, String email, String nickname, String nome, int idTime, String imagemUri) {
         this.numeroVermelhos = numeroVermelhos;
         this.numeroAmarelos = numeroAmarelos;
         this.numeroGols = numeroGols;
@@ -34,6 +36,7 @@ public class Jogador {
         this.nickname = nickname;
         this.nome = nome;
         this.idTime = idTime;
+        this.imagemUri = imagemUri;
     }
     @Ignore
     public Jogador(String nome) {
@@ -117,5 +120,13 @@ public class Jogador {
 
     public void setIdTime(int idTime) {
         this.idTime = idTime;
+    }
+
+    public String getImagemUri() {
+        return imagemUri;
+    }
+
+    public void setImagemUri(String imagemUri) {
+        this.imagemUri = imagemUri;
     }
 }

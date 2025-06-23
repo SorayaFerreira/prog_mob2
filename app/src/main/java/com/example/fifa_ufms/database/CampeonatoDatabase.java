@@ -27,7 +27,9 @@ public abstract class CampeonatoDatabase extends RoomDatabase {
                             context.getApplicationContext(),
                             CampeonatoDatabase.class,
                             "campeonato"
-                    )        .allowMainThreadQueries()
+                    )
+                            .fallbackToDestructiveMigration() // <- adiciona aqui
+                            .allowMainThreadQueries()
                             .build();
                 }
             }

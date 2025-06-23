@@ -45,6 +45,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageJogador"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_user"
+                android:contentDescription="Imagem do Jogador"
+                android:scaleType="centerCrop"/>
+
+
             <EditText
                 android:id="@+id/edittextNomeJogador"
                 android:layout_width="match_parent"

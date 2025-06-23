@@ -1,16 +1,16 @@
 package com.example.fifa_ufms.view;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.databinding.ActivityJogadorFormBinding;
 import com.example.fifa_ufms.entities.Jogador;
-import com.example.fifa_ufms.entities.Partida;
-import com.example.fifa_ufms.entities.Time;
 
 import java.util.concurrent.Executors;
 
@@ -18,6 +18,9 @@ public class JogadorFormActivity extends AppCompatActivity {
 
     public static final String EXTRA_ID_JOGADOR = "extra_id_jogador";
     public static final String EXTRA_NOME_JOGADOR = "extra_nome_jogador";
+
+    private static final int REQUEST_IMAGE_PICK = 1;
+    private String imagemUriSelecionada = null;
 
     private ActivityJogadorFormBinding binding;
     private int jogadorId = -1;
@@ -30,8 +33,14 @@ public class JogadorFormActivity extends AppCompatActivity {
 
         binding.backButton.setOnClickListener(v -> finish());
 
-        Intent intent = getIntent();
+        // Clique na imagem para selecionar da galeria
+        binding.imageJogador.setOnClickListener(v -> {
+            Intent intentImagem = new Intent(Intent.ACTION_PICK);
+            intentImagem.setType("image/*");
+            startActivityForResult(intentImagem, REQUEST_IMAGE_PICK);
+        });
 
+        Intent intent = getIntent();
         jogadorId = intent.getIntExtra(EXTRA_ID_JOGADOR, -1);
         String nomeJogador = intent.getStringExtra(EXTRA_NOME_JOGADOR);
 
@@ -49,6 +58,13 @@ public class JogadorFormActivity extends AppCompatActivity {
             binding.editNumeroAmarelos.setText(String.valueOf(intent.getIntExtra("numeroAmarelos", 0)));
             binding.editNumeroVermelhos.setText(String.valueOf(intent.getIntExtra("numeroVermelhos", 0)));
             binding.editIdTime.setText(String.valueOf(intent.getIntExtra("idTime", 0)));
+
+            // Preencher imagem se já tiver
+            String imagemUri = intent.getStringExtra("imagemUri");
+            if (imagemUri != null && !imagemUri.isEmpty()) {
+                imagemUriSelecionada = imagemUri;
+                binding.imageJogador.setImageURI(Uri.parse(imagemUri));
+            }
 
             binding.buttonSave.setOnClickListener(v -> salvarJogador(false));
 
@@ -68,16 +84,15 @@ public class JogadorFormActivity extends AppCompatActivity {
             return;
         }
 
-        // Pegar dados dos campos
         String nickname = binding.editNickname.getText().toString().trim();
         String email = binding.editEmail.getText().toString().trim();
         String dataNascimento = binding.editDataNascimento.getText().toString().trim();
-
         int numeroGols = parseIntOrZero(binding.editNumeroGols.getText().toString().trim());
         int numeroAmarelos = parseIntOrZero(binding.editNumeroAmarelos.getText().toString().trim());
         int numeroVermelhos = parseIntOrZero(binding.editNumeroVermelhos.getText().toString().trim());
         int idTime = parseIntOrZero(binding.editIdTime.getText().toString().trim());
 
+        // ADICIONAR imagemUriSelecionada ao Jogador
         Jogador jogador = new Jogador(
                 numeroVermelhos,
                 numeroAmarelos,
@@ -86,7 +101,8 @@ public class JogadorFormActivity extends AppCompatActivity {
                 email,
                 nickname,
                 nome,
-                idTime
+                idTime,
+                imagemUriSelecionada != null ? imagemUriSelecionada : ""
         );
 
         if (!isNew) {
@@ -113,6 +129,16 @@ public class JogadorFormActivity extends AppCompatActivity {
             return Integer.parseInt(s);
         } catch (NumberFormatException e) {
             return 0;
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_IMAGE_PICK && resultCode == RESULT_OK && data != null && data.getData() != null) {
+            imagemUriSelecionada = data.getData().toString();
+            binding.imageJogador.setImageURI(data.getData());
         }
     }
 }
