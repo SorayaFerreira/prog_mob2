@@ -67,7 +67,6 @@ public class JogadoresActivity extends AppCompatActivity {
                     intent.putExtra("numeroAmarelos", jogador.getNumeroAmarelos());
                     intent.putExtra("numeroVermelhos", jogador.getNumeroVermelhos());
                     intent.putExtra("idTime", jogador.getIdTime());
-                    intent.putExtra("imagemUri", jogador.getImagemUri()); // aqui
                     startActivity(intent);
                 });
                 recyclerView.setAdapter(adapter);

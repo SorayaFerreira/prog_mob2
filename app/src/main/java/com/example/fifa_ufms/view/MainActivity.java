@@ -34,16 +34,16 @@ public class MainActivity extends AppCompatActivity {
 
                 // Inserir jogadores
                 Jogador jogador1 = new Jogador(
-                        0, 1, 5, "2001-04-15", "caio@ufms.br", "Caio", "Caio", 1, "android.resource://com.example.fifa_ufms/drawable/ic_user"
+                        0, 1, 5, "2001-04-15", "caio@ufms.br", "Caio", "Caio", 1
                 );
                 Jogador jogador2 = new Jogador(
-                        1, 0, 3, "2000-10-30", "txas@ufms.br", "Txas", "Texeira", 1, "android.resource://com.example.fifa_ufms/drawable/ic_user"
+                        1, 0, 3, "2000-10-30", "txas@ufms.br", "Txas", "Texeira", 1
                 );
                 Jogador jogador3 = new Jogador(
-                        0, 2, 4, "2002-02-28", "Sora@uems.br", "Sora", "Soraya", 2, "android.resource://com.example.fifa_ufms/drawable/ic_user"
+                        0, 2, 4, "2002-02-28", "Sora@uems.br", "Sora", "Soraya", 2
                 );
                 Jogador jogador4 = new Jogador(
-                        1, 1, 2, "1999-11-11", "Sophy@uems.br", "Sophy", "Sophya", 2, "android.resource://com.example.fifa_ufms/drawable/ic_user"
+                        1, 1, 2, "1999-11-11", "Sophy@uems.br", "Sophy", "Sophya", 2
                 );
 
                 db.jogadorDao().inserirJogador(jogador1);
