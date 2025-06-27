@@ -1,12 +1,19 @@
 package com.example.fifa_ufms.view;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.example.fifa_ufms.database.CampeonatoDatabase;
 import com.example.fifa_ufms.databinding.ActivityJogadorFormBinding;
@@ -20,6 +27,7 @@ public class JogadorFormActivity extends AppCompatActivity {
     public static final String EXTRA_NOME_JOGADOR = "extra_nome_jogador";
 
     private static final int REQUEST_IMAGE_PICK = 1;
+    private static final int REQUEST_PERMISSION_CODE = 1001;
     private String imagemUriSelecionada = null;
 
     private ActivityJogadorFormBinding binding;
@@ -35,9 +43,11 @@ public class JogadorFormActivity extends AppCompatActivity {
 
         // Clique na imagem para selecionar da galeria
         binding.imageJogador.setOnClickListener(v -> {
-            Intent intentImagem = new Intent(Intent.ACTION_PICK);
-            intentImagem.setType("image/*");
-            startActivityForResult(intentImagem, REQUEST_IMAGE_PICK);
+            if (temPermissaoDeImagem()) {
+                abrirGaleria();
+            } else {
+                solicitarPermissaoDeImagem();
+            }
         });
 
         Intent intent = getIntent();
@@ -59,7 +69,6 @@ public class JogadorFormActivity extends AppCompatActivity {
             binding.editNumeroVermelhos.setText(String.valueOf(intent.getIntExtra("numeroVermelhos", 0)));
             binding.editIdTime.setText(String.valueOf(intent.getIntExtra("idTime", 0)));
 
-            // Preencher imagem se já tiver
             String imagemUri = intent.getStringExtra("imagemUri");
             if (imagemUri != null && !imagemUri.isEmpty()) {
                 imagemUriSelecionada = imagemUri;
@@ -74,6 +83,45 @@ public class JogadorFormActivity extends AppCompatActivity {
             binding.buttonSave.setText("Cadastrar");
 
             binding.buttonSave.setOnClickListener(v -> salvarJogador(true));
+        }
+    }
+
+    private void abrirGaleria() {
+        Intent intentImagem = new Intent(Intent.ACTION_PICK);
+        intentImagem.setType("image/*");
+        startActivityForResult(intentImagem, REQUEST_IMAGE_PICK);
+    }
+
+    private boolean temPermissaoDeImagem() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            return ContextCompat.checkSelfPermission(this, Manifest.permission.READ_MEDIA_IMAGES) == PackageManager.PERMISSION_GRANTED;
+        } else {
+            return ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED;
+        }
+    }
+
+    private void solicitarPermissaoDeImagem() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.READ_MEDIA_IMAGES},
+                    REQUEST_PERMISSION_CODE);
+        } else {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                    REQUEST_PERMISSION_CODE);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (requestCode == REQUEST_PERMISSION_CODE &&
+                grantResults.length > 0 &&
+                grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            abrirGaleria();
+        } else {
+            Toast.makeText(this, "Permissão negada para acessar imagens", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -92,7 +140,6 @@ public class JogadorFormActivity extends AppCompatActivity {
         int numeroVermelhos = parseIntOrZero(binding.editNumeroVermelhos.getText().toString().trim());
         int idTime = parseIntOrZero(binding.editIdTime.getText().toString().trim());
 
-        // ADICIONAR imagemUriSelecionada ao Jogador
         Jogador jogador = new Jogador(
                 numeroVermelhos,
                 numeroAmarelos,

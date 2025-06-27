@@ -2,6 +2,7 @@ package com.example.fifa_ufms.view;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.CalendarContract;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -23,8 +24,11 @@ import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Participacao;
 import com.example.fifa_ufms.entities.Time;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class PartidasFormActivity extends AppCompatActivity {
@@ -123,6 +127,8 @@ public class PartidasFormActivity extends AppCompatActivity {
         int placar2 = Integer.parseInt(editTextPlacar2.getText().toString());
         int idTime1 = listaTimes.get(spinnerTime1.getSelectedItemPosition()).idTime;
         int idTime2 = listaTimes.get(spinnerTime2.getSelectedItemPosition()).idTime;
+        String nome1 = listaTimes.get(spinnerTime1.getSelectedItemPosition()).nomeTime;
+        String nome2 = listaTimes.get(spinnerTime2.getSelectedItemPosition()).nomeTime;
 
         if (idTime1 == idTime2) {
             Toast.makeText(this, "Os times devem ser diferentes!", Toast.LENGTH_SHORT).show();
@@ -149,6 +155,30 @@ public class PartidasFormActivity extends AppCompatActivity {
             Toast.makeText(this, "Partida atualizada!", Toast.LENGTH_SHORT).show();
         }
 
+        try {
+            SimpleDateFormat formato = new SimpleDateFormat("ddMMyyyy", Locale.getDefault());
+            Calendar inicio = Calendar.getInstance();
+            inicio.setTime(formato.parse(partida.getData()));
+            inicio.set(Calendar.HOUR_OF_DAY, 18); // inventei a hora :)
+            inicio.set(Calendar.MINUTE, 0);
+
+            Calendar fim = (Calendar) inicio.clone();
+            fim.add(Calendar.MINUTE, 90);
+
+            Intent intent = new Intent(Intent.ACTION_INSERT);
+            intent.setData(CalendarContract.Events.CONTENT_URI);
+            intent.putExtra(CalendarContract.Events.TITLE, "Partida: " + nome1 + " vs " + nome2);
+            intent.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, inicio.getTimeInMillis());
+            intent.putExtra(CalendarContract.EXTRA_EVENT_END_TIME, fim.getTimeInMillis());
+            intent.putExtra(CalendarContract.Events.DESCRIPTION, "Jogo do campeonato Fifa UFMS. Placar: " + nome1 + " " + partida.placarTime1 + " x " + nome2 + " " + partida.placarTime2);
+
+            startActivity(intent);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(this, "Erro ao criar evento", Toast.LENGTH_SHORT).show();
+        }
+
         finish(); // Retorna para a tela anterior
     }
 
@@ -172,5 +202,5 @@ public class PartidasFormActivity extends AppCompatActivity {
             participacoes.add(p);
         }
         participacoesDao.inserirParticipacoes(participacoes);
-    }
-}
+    }}
+

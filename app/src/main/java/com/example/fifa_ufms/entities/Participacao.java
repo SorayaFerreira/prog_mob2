@@ -35,5 +35,4 @@ public class Participacao {
     // Campos adicionais opcionais
     public boolean titular;
     public int minutosJogados;
-
 }

@@ -28,6 +28,7 @@ public class TimesActivity extends AppCompatActivity {
     private TimesAdapter adapter;
     private List<Time> timesList;
     private CampeonatoDatabase db;
+    private ImageButton backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,12 @@ public class TimesActivity extends AppCompatActivity {
 
         // 2) obtém instância do banco (Room)
         db = CampeonatoDatabase.getInstance(this);
+
+        backButton = findViewById(R.id.back_button);
+
+        // Botão de voltar
+        ImageButton backButton = findViewById(R.id.back_button);
+        backButton.setOnClickListener(v -> finish());
 
         // 3) configura RecyclerView e Adapter (com listener para clique)
         recyclerView = findViewById(R.id.recycler_times);

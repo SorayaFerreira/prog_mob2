@@ -84,4 +84,5 @@ public class Partida {
     public void setPlacarTime2(int placarTime2) {
         this.placarTime2 = placarTime2;
     }
+
 }

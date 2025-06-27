@@ -9,15 +9,16 @@ import com.example.fifa_ufms.entities.Jogador;
 import com.example.fifa_ufms.entities.Partida;
 import com.example.fifa_ufms.entities.Time;
 import com.example.fifa_ufms.entities.Participacao;
+import com.example.fifa_ufms.entities.User;
 
-@Database(entities = {Jogador.class, Time.class, Partida.class, Participacao.class}, version = 2)
+@Database(entities = {Jogador.class, Time.class, Partida.class, Participacao.class, User.class}, version = 3)
 public abstract class CampeonatoDatabase extends RoomDatabase {
     private static volatile CampeonatoDatabase INSTANCE;
-
     public abstract JogadorDao jogadorDao();
     public abstract TimeDao timeDao();
     public abstract PartidaDao partidaDao();
     public abstract ParticipacaoDao participacaoDao();
+    public abstract UserDao userDao();
 
     public static CampeonatoDatabase getInstance(Context context) {
         if (INSTANCE == null) {
